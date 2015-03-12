@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Backbone/Require/Pimple JS</title>
+    <script data-main="app" src="lib/require.js"></script>
+    <link rel="stylesheet" href="app/styles/common.css"/>
+    <link rel="stylesheet" href="app/styles/styles.css"/>
+</head>
+<body dir="ltr">
+
+<div class="wrap">
+
+
+    <header class="contentHeader" id="Header_wrapper">
+
+    </header>
+    
+
+    <article id="Page1_wrapper" class="g-hidden"></article>
+    <article id="Page2_wrapper" class="g-hidden"></article>
+    <article id="Page3_wrapper" class="g-hidden"></article>
+    <article id="Page4_wrapper" class="g-hidden"></article>
+    <article id="Page5_wrapper" class="g-hidden"></article>
+    <article id="Page6_wrapper" class="g-hidden"></article>
+    <article id="Page7_wrapper" class="g-hidden"></article>
+    <article id="Page8_wrapper" class="g-hidden"></article>
+    <article id="Page9_wrapper" class="g-hidden"></article>
+    <article id="PageCustomName_wrapper" class="g-hidden"></article>
+<!-- Template: Header-->
+<script type="text/template" id="Header">
+<div>Я - Хэдер!</div>
+</script>
+<!---->
+<!-- Template: Page1-->
+<script type="text/template" id="Page1">
+<div id="page-Page1">
+    <h1>Страница 1</h1>
+</div>
+</script>
+<!---->
+<!-- Template: Page2-->
+<script type="text/template" id="Page2">
+<div id="page-Page2">
+ <h1>Страница 2</h1>
+</div>
+</script>
+<!---->
+<!-- Template: PageCustomName-->
+<script type="text/template" id="PageCustomName">
+<h2>Custom Name</h2>
+</script>
+<!---->
+    <footer id="main-footer-kss" class="mainFooter">
+            <ul>
+                <li><a href="#!/">Page1</a></li>
+                <li><a href="#!/pages/2">Page 2</a></li>
+                <li><a href="#!/pages/CustomName">Page CustomName</a></li>
+            </ul>
+    </footer>
+</div>
+</body>
+</html>

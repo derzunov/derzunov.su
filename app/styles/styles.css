@@ -1,0 +1,7 @@
+@charset "UTF-8";
+.g-hidden {
+  display: none;
+}
+body h2 {
+  color: darkblue;
+}
