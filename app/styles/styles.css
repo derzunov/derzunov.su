@@ -6,9 +6,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   -webkit-filter: saturate(1.2);
 }
@@ -23,5 +24,14 @@
 .mgudt {
   background-image: url('src/carousel/mgudt.jpg');
   background-image: url('src/carousel/mgudt2.jpg');
-  background-position: 0 -350px;
+}
+.Moscow {
+  background-image: url('http://varlamov.me/2014/nikon_d4s/00s.jpg');
+  background-image: url('http://www.zhirkoff.com/wp-content/uploads/2014/05/Moskva-Siti-13.jpg');
+}
+.kl {
+  background-image: url('http://n915.cdn.improvemedia.ru/imr/production/uploads/post/teaser/91/9151/91518595-febe-4cdf-9640-e48e9fbcc451.jpg');
+}
+.kl .overlay {
+  background-color: rgba(8, 0, 26, 0.5);
 }
