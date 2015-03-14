@@ -2,7 +2,10 @@
 .g-hidden {
   display: none;
 }
-.carousel-image {
+.carousel-style .carousel-caption {
+  bottom: 40px;
+}
+.carousel-style .carousel-image {
   position: absolute;
   top: 0;
   left: 0;
@@ -13,7 +16,7 @@
   background-position: center;
   -webkit-filter: saturate(1.2);
 }
-.carousel-image .overlay {
+.carousel-style .carousel-image .overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -21,17 +24,47 @@
   left: 0;
   background-color: rgba(8, 0, 26, 0.4);
 }
-.mgudt {
+.carousel-style .mgudt {
   background-image: url('src/carousel/mgudt.jpg');
   background-image: url('src/carousel/mgudt2.jpg');
 }
-.Moscow {
+.carousel-style .Moscow {
   background-image: url('http://varlamov.me/2014/nikon_d4s/00s.jpg');
-  background-image: url('http://www.zhirkoff.com/wp-content/uploads/2014/05/Moskva-Siti-13.jpg');
+  background-image: url('src/carousel/mcity.jpg');
 }
-.kl {
-  background-image: url('http://n915.cdn.improvemedia.ru/imr/production/uploads/post/teaser/91/9151/91518595-febe-4cdf-9640-e48e9fbcc451.jpg');
+.carousel-style .kl {
+  background-image: url('src/carousel/kl.jpg');
 }
-.kl .overlay {
+.carousel-style .kl .overlay {
   background-color: rgba(8, 0, 26, 0.5);
+}
+@media (max-width: 770px) {
+  .carousel-style .carousel-caption {
+    bottom: 90px;
+  }
+}
+@media (max-width: 481px) {
+  .carousel-style {
+    height: 400px;
+  }
+  .carousel-style .carousel-caption {
+    bottom: 50px;
+  }
+  .carousel-style h1 {
+    font-size: 35px;
+  }
+  .carousel-style .item {
+    height: 400px;
+  }
+}
+@media (max-width: 321px) {
+  .carousel-style {
+    height: 400px;
+  }
+  .carousel-style h1 {
+    font-size: 27px;
+  }
+  .carousel-style .item {
+    height: 400px;
+  }
 }
