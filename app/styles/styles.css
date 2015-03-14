@@ -25,15 +25,19 @@
   background-color: rgba(8, 0, 26, 0.4);
 }
 .carousel-style .mgudt {
-  background-image: url('src/carousel/mgudt.jpg');
   background-image: url('src/carousel/mgudt2.jpg');
 }
 .carousel-style .Moscow {
-  background-image: url('http://varlamov.me/2014/nikon_d4s/00s.jpg');
   background-image: url('src/carousel/mcity.jpg');
 }
+.carousel-style .hi {
+  background-image: url('src/carousel/javascript.jpg');
+}
+.carousel-style .hi .overlay {
+  background-color: rgba(8, 0, 26, 0.5);
+}
 .carousel-style .kl {
-  background-image: url('src/carousel/kl.jpg');
+  background-image: url('src/carousel/kl3.jpg');
 }
 .carousel-style .kl .overlay {
   background-color: rgba(8, 0, 26, 0.5);
