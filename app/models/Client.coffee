@@ -2,7 +2,7 @@
  * Created by Erzunov on 11.03.2015.
 ###
 define(
-    ['backbone', 'jquery', '../../configs/compiled/cppFunctions'],
+    ['backbone', 'jquery', 'cppFunctions'],
 	(Backbone, $, cppFunctions)  ->
 		class Client extends Backbone.Model
             defaults:

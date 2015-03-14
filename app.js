@@ -9,6 +9,7 @@ requirejs.config({
 	paths: {
 		bootstrap: 'bootstrap',
 		jquery: 'jquery',
+		cppFunctions: '../app/configs/compiled/cppFunctions',
 		app: '../app'
 	}
 });
