@@ -14,7 +14,7 @@
   margin: 0 100px;
 }
 .carousel-style .carousel-caption {
-  bottom: 40px;
+  bottom: 60px;
 }
 .carousel-style .carousel-image {
   position: absolute;
@@ -33,25 +33,28 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(8, 0, 26, 0.4);
+  background-color: rgba(8, 0, 26, 0.37);
 }
 .carousel-style .mgudt {
-  background-image: url('src/carousel/mgudt2.jpg');
+  background-image: url('src/carousel/mgudt.jpg');
 }
 .carousel-style .Moscow {
-  background-image: url('src/carousel/mcity.jpg');
+  background-image: url('src/carousel/stalin1.jpg');
+}
+.carousel-style .Moscow .overlay {
+  background-color: rgba(8, 0, 26, 0.4);
 }
 .carousel-style .hi {
   background-image: url('src/carousel/javascript.jpg');
 }
 .carousel-style .hi .overlay {
-  background-color: rgba(8, 0, 26, 0.5);
+  background-color: rgba(8, 0, 26, 0.4);
 }
 .carousel-style .kl {
   background-image: url('src/carousel/kl3.jpg');
 }
 .carousel-style .kl .overlay {
-  background-color: rgba(8, 0, 26, 0.5);
+  background-color: rgba(8, 0, 26, 0.4);
 }
 @media (max-width: 770px) {
   .carousel-style .carousel-caption {
@@ -101,5 +104,7 @@
   }
   .navbar-wrapper > .container .navbar {
     background-color: #333;
+    position: fixed;
+    width: 100%;
   }
 }
