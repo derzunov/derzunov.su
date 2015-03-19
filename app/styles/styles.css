@@ -124,16 +124,16 @@
   font-size: 30px;
   padding: 32px 30px;
 }
-.top-menu__toggle .glyphicon-menu-hamburger {
+.top-menu .glyphicon-menu-hamburger {
   display: block;
 }
-.top-menu__toggle .glyphicon-remove {
+.top-menu .glyphicon-remove {
   display: none;
 }
-.top-menu__toggle_active .glyphicon-menu-hamburger {
+.top-menu_list-showed .glyphicon-menu-hamburger {
   display: none;
 }
-.top-menu__toggle_active .glyphicon-remove {
+.top-menu_list-showed .glyphicon-remove {
   display: block;
 }
 .top-menu a {
