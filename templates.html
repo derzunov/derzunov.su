@@ -1,42 +1,30 @@
 <!-- Template: Header-->
 <script type="text/template" id="Header">
-<div class="navbar-wrapper">
-    <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">derzunov.su</a>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
+<div class="top-menu">
+    <div class="top-menu__logo">
+        <a href="#">derzunov.su</a>
     </div>
+
+    <ul class="top-menu__list">
+        <li class="top-menu__item top-menu__item-active">
+            <a href="#">Home</a>
+        </li>
+        <li class="top-menu__item">
+            <a href="#">About</a>
+        </li>
+        <li class="top-menu__item">
+            <a href="#">Contact</a>
+        </li>
+
+        <li class="top-menu__item top-menu__toggle top-menu__toggle_active">
+            <a href="#">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </a>
+        </li>
+
+    </ul>
+
 </div>
 
 </script>
@@ -45,12 +33,12 @@
 <script type="text/template" id="Page1">
 <div id="myCarousel-1" class="carousel carousel-style slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel-1" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel-1" data-slide-to="2" class=""></li>
-        <li data-target="#myCarousel-1" data-slide-to="3" class=""></li>
-    </ol>
+    <!--<ol class="carousel-indicators">-->
+        <!--<li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>-->
+        <!--<li data-target="#myCarousel-1" data-slide-to="1" class=""></li>-->
+        <!--<li data-target="#myCarousel-1" data-slide-to="2" class=""></li>-->
+        <!--<li data-target="#myCarousel-1" data-slide-to="3" class=""></li>-->
+    <!--</ol>-->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <div  class="carousel-image hi">
@@ -59,10 +47,16 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Привет!</h1>
-                    <p>
+                    <!--<p>
                         Меня зовут Дмитрий Ерзунов. Я - Javascript разработчик. <br>
                         Расскажу Вам немного о себе.
-                    </p>
+                    </p>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <p><a class="btn btn-lg btn-primary" target="_blank" href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" role="button">LinkedIn</a></p>
                 </div>
             </div>
@@ -75,7 +69,9 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>МОСКВА</h1>
-                    <p>Мне повезло жить в лучшем и красивейшем городе на&nbsp;свете.<br/>Он строился не сразу и не верит слезам.</p>
+                    <!--<p>Мне повезло жить в лучшем и красивейшем городе на&nbsp;свете.<br/>Он строился не сразу и не верит слезам.</p>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -88,7 +84,9 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>МГУДТ</h1>
-                    <p>Ленивая&nbsp;юность, лекции, консекты, лабораторки. <br/> Беззаботное студенчество и бессонные&nbsp;ночи перед&nbsp;экзаменами подарили мне уйму знаний и верных друзей.</p>
+                    <!--<p>Ленивая&nbsp;юность, лекции, консекты, лабораторки. <br/> Беззаботное студенчество и бессонные&nbsp;ночи перед&nbsp;экзаменами подарили мне уйму знаний и верных друзей.</p>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
                 </div>
             </div>
@@ -101,7 +99,9 @@
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Лаборатория Касперского</h1>
-                    <p>Будучи мальчишкой, я и представить не мог, что буду работать в&nbsp;легендарной лаборатории.</p>
+                    <!--<p>Будучи мальчишкой, я и представить не мог, что буду работать в&nbsp;легендарной лаборатории.</p>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     <p><a class="btn btn-lg btn-primary" target="_blank" href="http://kaspersky.com" role="button">На сайт</a></p>
                 </div>
             </div>
