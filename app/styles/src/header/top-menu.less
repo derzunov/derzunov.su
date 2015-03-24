@@ -21,6 +21,19 @@
     float: right;
     padding: 0;
     margin: 0;
+    position: absolute;
+
+    right: 0;
+
+    transition: 400ms ease all;
+
+    &-wrapper {
+      overflow: hidden;
+      float: right;
+      width: 317px;
+      height: 100px;
+      position: relative;
+    }
   }
   &__item {
     display: inline-block;
@@ -30,24 +43,36 @@
     vertical-align: top;
   }
   &__toggle {
+    float: right;
     font-size: 30px;
     padding: 32px 30px;
+    display: inline-block;
+    height: 100px;
+    box-sizing: border-box;
+    vertical-align: top;
   }
 
   .glyphicon-menu-hamburger {
-    display: block;
-  }
-  .glyphicon-remove {
     display: none;
   }
+  .glyphicon-remove {
+    display: block;
+  }
 
-  &_list-showed {
+  &_list-hidden {
+
+    .top-menu__list {
+      right: -100%;
+      transition: 400ms ease all;
+    }
+
     .glyphicon-menu-hamburger {
-      display: none;
+
+      display: block;
     }
 
     .glyphicon-remove {
-      display: block;
+      display: none;
     }
   }
 

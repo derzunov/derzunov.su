@@ -8,17 +8,16 @@ define([ 'backbone', './defaultView' ], function( Backbone, DefaultView ) {
 		template: _.template($('#Header').html()),
 
 		events: {
-			'click .js-window-close': 'close'
+			'click .js-top-menu-toggle': 'toggleMenu'
 		},
 
 		initialize: function () {
 			this.render();
 			this.container = window.DI.getContainer();
 		},
-		close: function() {
-			console.log('close');
-			/*Позже перепилю на клиентские функции, ссылающиеся при необходимости на мок модель*/
-			this.container.client.closeWindow();
+		toggleMenu: function( event ) {
+			var $topMenu = $('.js-top-menu');
+			$topMenu.toggleClass('top-menu_list-hidden');
 		}
 	});
 	return Header;

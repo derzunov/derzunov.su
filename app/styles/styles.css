@@ -69,17 +69,21 @@
 .carousel-style .kl .overlay {
   background-color: rgba(8, 0, 26, 0.4);
 }
-@media (max-width: 770px) {
-  .carousel-style .carousel-caption {
-    bottom: 90px;
-  }
+.carousel-style .down-next {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -25px;
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.7;
+}
+.carousel-style .down-next:hover {
+  opacity: 1;
 }
 @media (max-width: 481px) {
   .carousel-style {
     height: 400px;
-  }
-  .carousel-style .carousel-caption {
-    bottom: 50px;
   }
   .carousel-style h1 {
     font-size: 35px;
@@ -112,6 +116,16 @@
   float: right;
   padding: 0;
   margin: 0;
+  position: absolute;
+  right: 0;
+  transition: 400ms ease all;
+}
+.top-menu__list-wrapper {
+  overflow: hidden;
+  float: right;
+  width: 317px;
+  height: 100px;
+  position: relative;
 }
 .top-menu__item {
   display: inline-block;
@@ -121,20 +135,29 @@
   vertical-align: top;
 }
 .top-menu__toggle {
+  float: right;
   font-size: 30px;
   padding: 32px 30px;
+  display: inline-block;
+  height: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
 }
 .top-menu .glyphicon-menu-hamburger {
-  display: block;
+  display: none;
 }
 .top-menu .glyphicon-remove {
-  display: none;
-}
-.top-menu_list-showed .glyphicon-menu-hamburger {
-  display: none;
-}
-.top-menu_list-showed .glyphicon-remove {
   display: block;
+}
+.top-menu_list-hidden .top-menu__list {
+  right: -100%;
+  transition: 400ms ease all;
+}
+.top-menu_list-hidden .glyphicon-menu-hamburger {
+  display: block;
+}
+.top-menu_list-hidden .glyphicon-remove {
+  display: none;
 }
 .top-menu a {
   color: #dfdfdf;
