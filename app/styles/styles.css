@@ -165,3 +165,27 @@
 .top-menu a:hover {
   color: #fff;
 }
+.button {
+  color: #434a54;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  width: auto;
+  font-size: 13px;
+  border-radius: 2px;
+  transition: 0.3s background-color ease;
+  background-color: transparent;
+  border: #dde3eb 1px solid;
+  display: inline-block;
+}
+.button:hover {
+  transition: 0.3s background-color ease;
+  background-color: #F1F2F3;
+}
+.bg-light-gray {
+  background-color: #f4f5f6;
+}
+.section {
+  padding: 50px 0;
+  min-height: 400px;
+}
