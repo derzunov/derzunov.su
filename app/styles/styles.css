@@ -2,6 +2,14 @@
 .g-hidden {
   display: none;
 }
+.g-20left {
+  position: relative;
+  left: -20px;
+}
+.g-40left {
+  position: relative;
+  left: -20px;
+}
 .carousel-indicators li {
   border-radius: 50%;
   margin: 0 100px;
@@ -193,6 +201,11 @@
   width: 180px;
   height: 180px;
 }
+.feature__img_cef {
+  width: auto;
+  position: relative;
+  right: -23px;
+}
 .feature__header {
   margin: 0;
   padding: 37px 0 20px 0;
@@ -209,4 +222,10 @@
   .feature p {
     min-height: 63px;
   }
+}
+footer {
+  margin-top: 200px;
+}
+.pic-card__header {
+  margin-top: 90px;
 }
