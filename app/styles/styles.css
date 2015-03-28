@@ -131,7 +131,7 @@
 .top-menu__list-wrapper {
   overflow: hidden;
   float: right;
-  width: 317px;
+  width: 350px;
   height: 100px;
   position: relative;
 }
@@ -223,8 +223,14 @@
     min-height: 63px;
   }
 }
-footer {
-  margin-top: 200px;
+.footer {
+  padding-top: 200px;
+  background-color: #444E5A;
+  color: #C0CCDC;
+}
+.footer a {
+  color: #C0CCDC;
+  font-weight: 500;
 }
 .pic-card__header {
   margin-top: 90px;

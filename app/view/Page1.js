@@ -31,7 +31,7 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo.min' ], function( Backbon
 
 		downNext: function( event ) {
 			event.preventDefault();
-			$(document.body).scrollTo('#section-skillz', 500);
+			$( document.body ).scrollTo('#section-skills', 500);
 		}
 
 	});
