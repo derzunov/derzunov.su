@@ -8,9 +8,10 @@
                 <a href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" target="_blank">LinkedIn</a> ·
                 <a href="http://vk.com/tonky" target="_blank">VK</a>
             </p> ·
-            <a href="#!/">Главная</a> ·
-            <a href="#" class="js-go-to-skills">Опыт</a> ·
-            <a href="#!/pages/Contacts">Контакты</a>
+            <a href="#" class="js-go-to-top">Главная</a> ·
+            <a href="#" class="js-go-to-skills">Навыки</a> ·
+            <a href="#" class="js-go-to-history">Опыт</a> ·
+            <a href="#" class="js-go-to-contacts">Контакты</a>
         </footer>
     </div>
 </div>
@@ -33,13 +34,17 @@
     <div class="top-menu__list-wrapper">
         <ul class="top-menu__list">
             <li class="top-menu__item top-menu__item-active">
-                <a href="#">Главная</a>
+                <a href="#!/" class="" >Главная</a>
             </li>
             <li class="top-menu__item">
-                <a href="#">Опыт</a>
+                <a href="#" class="js-go-to-skills">Навыки</a>
+            </li>
+
+            <li class="top-menu__item">
+                <a href="#" class="js-go-to-history">Опыт</a>
             </li>
             <li class="top-menu__item">
-                <a href="#">Контакты</a>
+                <a href="#" class="js-go-to-contacts">Контакты</a>
             </li>
         </ul>
     </div>
@@ -50,17 +55,15 @@
 <!---->
 <!-- Template: Page1-->
 <script type="text/template" id="Page1">
-<div id="myCarousel-1" class="carousel carousel-style slide" data-ride="carousel">
-    <!-- Indicators -->
-    <!--<ol class="carousel-indicators">-->
-        <!--<li data-target="#myCarousel-1" data-slide-to="0" class="active"></li>-->
-        <!--<li data-target="#myCarousel-1" data-slide-to="1" class=""></li>-->
-        <!--<li data-target="#myCarousel-1" data-slide-to="2" class=""></li>-->
-        <!--<li data-target="#myCarousel-1" data-slide-to="3" class=""></li>-->
-    <!--</ol>-->
+<div id="myCarousel-1" class="js_carousel carousel-style slide">
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <div  class="carousel-image hi">
+                <video loop autoplay="autoplay" muted="muted" poster="/app/styles/src/carousel/javascript.jpg" style="width: 1903px; height: auto; visibility: visible;">
+                    <source src="app/media/6399266.mp4" type="video/mp4">
+                    <!--<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.mp4" type="video/mp4">-->
+                    <!--<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.webm" type="video/webm">-->
+                </video>
                 <div class="overlay"></div>
             </div>
             <div class="container">
@@ -84,6 +87,11 @@
 
         <div class="item">
             <div  class="carousel-image Moscow">
+                <video loop autoplay="autoplay" muted="muted" poster="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.jpg" style="width: 1903px; height: auto; visibility: visible;">
+                    <source src="app/media/3433190.mp4" type="video/mp4">
+                    <!--<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.mp4" type="video/mp4">-->
+                    <!--<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.webm" type="video/webm">-->
+                </video>
                 <div class="overlay"></div>
             </div>
             <div class="container">
@@ -178,7 +186,7 @@
     </div>
 </section>
 
-<section class="section">
+<section id="section-history" class="section">
     <div class="container pic-card">
         <div class="row featurette">
             <div class="col-md-5">
@@ -192,7 +200,7 @@
     </div>
 </section>
 
-<section class="section bg-light-gray">
+<section id="section-contacts" class="section bg-light-gray">
     <div class="container pic-card">
         <div class="row featurette">
             <div class="col-md-7">

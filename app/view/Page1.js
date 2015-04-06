@@ -8,7 +8,9 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo.min' ], function( Backbon
 		template: _.template($('#Page1').html()),
 
 		events: {
-			'click .js-main-first-down-next': 'downNext'
+			'click .js-main-first-down-next': 'downNext',
+			'click .right ': 'right',
+			'click .left ': 'left'
 		},
 
 		initialize: function () {
@@ -26,12 +28,23 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo.min' ], function( Backbon
 
 			$( document ).ready(function() {
 				$('.carousel-style').height($(window).height());
+				$('.js_carousel').carousel();
 			});
 		},
 
 		downNext: function( event ) {
 			event.preventDefault();
 			$( document.body ).scrollTo('#section-skills', 500);
+		},
+
+		right: function( event ) {
+			event.preventDefault();
+			$('.carousel-style').carousel( 'next' );
+		},
+
+		left: function( event ) {
+			event.preventDefault();
+			$('.carousel-style').carousel( 'prev' );
 		}
 
 	});
