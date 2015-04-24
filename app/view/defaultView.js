@@ -5,7 +5,7 @@
 define([ 'backbone' ], function( Backbone ){
 	var defaultView = Backbone.View.extend({
 		render: function () {
-			$(this.el).append( $(this.template({})) );
+			$( this.el ).html( this.template() );
 			return this;
 		}
 	});

@@ -13,9 +13,10 @@ define([
 		'../app/router',
 		'../app/view/ViewsInit',
 		'../app/models/compiled/Client',
+		'../app/collections/compiled/Posts',
 
 		'bootstrap'], //вконце вещи которые просто реквайрятся, но ничего не отдают в переменную
-	function(Backbone, Rivets, Pimple, $, Router, ViewsInit, Client) {
+	function(Backbone, Rivets, Pimple, $, Router, ViewsInit, Client, Posts) {
 
 		/*Для хранения всего создаём приватный DI контейнер получаемый по запросу DI.getContainer()*/
 		var DI = function() {
@@ -32,6 +33,9 @@ define([
 
 		container.set('rivets', Rivets);
 		container.set('client', new Client());
+		container.set('posts', new Posts());
+
+		window.posts = container.get( 'posts' );
 		/* Инициализируем все вьюхи, плюс получаем набор этих самых вьюх */
 		views = ViewsInit();
 
