@@ -1,7 +1,7 @@
 /**
  * Created by Erzunov on 16.02.2015.
  */
-define([ 'backbone', './defaultPage', 'jquery.scrollTo.min' ], function( Backbone, DefaultPage ) {
+define([ 'backbone', './defaultPage', 'jquery.scrollTo.min' ], function( Backbone, DefaultPage, st ) {
 	var Page1 = DefaultPage.extend({
 
 		el: $("#Page1_wrapper"), // DOM элемент widget'а

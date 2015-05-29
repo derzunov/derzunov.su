@@ -7,32 +7,49 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-coffee');
+	grunt.loadNpmTasks('grunt-contrib-requirejs');
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		coffee: {
-			models: {
+			app: {
 				expand: true,
 				flatten: true,
-				cwd: 'app/models',
+				cwd: 'app',
 				src: ['*.coffee'],
-				dest: 'app/models/compiled',
+				dest: 'app/',
 				ext: '.js'
 			},
-			collections: {
+			model: {
 				expand: true,
 				flatten: true,
-				cwd: 'app/collections',
+				cwd: 'app/model',
 				src: ['*.coffee'],
-				dest: 'app/collections/compiled',
+				dest: 'app/model/',
 				ext: '.js'
 			},
-			configs: {
+			collection: {
 				expand: true,
 				flatten: true,
-				cwd: 'app/configs',
+				cwd: 'app/collection',
 				src: ['*.coffee'],
-				dest: 'app/configs/compiled',
+				dest: 'app/collection/',
+				ext: '.js'
+			},
+			view: {
+				expand: true,
+				flatten: true,
+				cwd: 'app/view',
+				src: ['*.coffee'],
+				dest: 'app/view/',
+				ext: '.js'
+			},
+			helper: {
+				expand: true,
+				flatten: true,
+				cwd: 'app/helper',
+				src: ['*.coffee'],
+				dest: 'app/helper/',
 				ext: '.js'
 			}
 		},
@@ -84,7 +101,50 @@ module.exports = function (grunt) {
 			},
 			coffee: {
 				files: ['app/**/*.coffee'],
-				tasks: ['coffee:models', 'coffee:collections', 'coffee:configs']
+				tasks: ['coffee:app', 'coffee:model', 'coffee:collection', 'coffee:view', 'coffee:helper']
+			}
+		},
+		requirejs: {
+			compile: {
+				options: {
+					mainConfigFile: './app.js',
+					baseUrl: 'lib',
+					name: 'app/main',
+					include: ['app'],
+					out: "production/app.js",
+					optimize: 'uglify'
+				}
+			}
+		},
+
+		copy: {
+			index: {
+				src: 'index.html',
+				dest: 'production/index.html'
+			},
+			stylesBS: {
+				src: 'app/styles/bootstrap.min.css ',
+				dest: 'production/app/styles/bootstrap.min.css'
+			},
+			styles: {
+				src: 'app/styles/styles.css',
+				dest: 'production/app/styles/styles.css'
+			},
+			stylesSvg: {
+				src: 'app/styles/src/**/*.svg',
+				dest: 'production/'
+			},
+			stylesPng: {
+				src: 'app/styles/src/**/*.png',
+				dest: 'production/'
+			},
+			img: {
+				src: 'app/**/*.png',
+				dest: 'production/'
+			},
+			stylesFonts: {
+				src: 'app/styles/src/**/*.woff',
+				dest: 'production/'
 			}
 		}
 	});
@@ -104,5 +164,13 @@ module.exports = function (grunt) {
 		'concat',
 		'less',
 		'watch'
+	]);
+
+	grunt.registerTask('prod', [
+		'coffee',
+		'concat',
+		'less',
+		'copy',
+		'requirejs'
 	]);
 };

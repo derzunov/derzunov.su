@@ -7,12 +7,14 @@ requirejs.config({
 	deps: ['app/main'],
 	baseUrl: 'lib',
 	shim : {
-		bootstrap : { "deps" :['jquery'] }
+		bootstrap : { "deps" :['jquery'] },
+		scrollTo: {"exports" : "jquery.scrollTo"}
 	},
 	paths: {
-		bootstrap: 'bootstrap',
-		jquery: 'jquery',
+		bootstrap: 'bootstrap.min',
+		jquery: 'jquery-1.11.3.min',
 		cppFunctions: '../app/configs/compiled/cppFunctions',
-		app: '../app'
+		app: '../app',
+		scrollTo: 'jquery.scrollTo.min'
 	}
 });
