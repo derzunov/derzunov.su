@@ -19,6 +19,7 @@ define([ 'backbone', './defaultView' ], function( Backbone, DefaultView ) {
 			this.container = window.DI.getContainer();
 		},
 		toggleMenu: function( event ) {
+			event.preventDefault();
 			var $topMenu = $('.js-top-menu');
 			$topMenu.toggleClass('top-menu_list-hidden');
 		},
