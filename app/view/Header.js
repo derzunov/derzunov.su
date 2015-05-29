@@ -8,17 +8,32 @@ define([ 'backbone', './defaultView' ], function( Backbone, DefaultView ) {
 		template: _.template($('#Header').html()),
 
 		events: {
-			'click .js-window-close': 'close'
+			'click .js-top-menu-toggle': 'toggleMenu',
+			'click .js-go-to-skills': 'toSkills',
+			'click .js-go-to-history': 'toHistory',
+			'click .js-go-to-contacts': 'toContacts'
 		},
 
 		initialize: function () {
 			this.render();
 			this.container = window.DI.getContainer();
 		},
-		close: function() {
-			console.log('close');
-			/*Позже перепилю на клиентские функции, ссылающиеся при необходимости на мок модель*/
-			this.container.client.closeWindow();
+		toggleMenu: function( event ) {
+			event.preventDefault();
+			var $topMenu = $('.js-top-menu');
+			$topMenu.toggleClass('top-menu_list-hidden');
+		},
+		toSkills: function( event ) {
+			event.preventDefault();
+			$( document.body ).scrollTo('#section-skills', 500);
+		},
+		toHistory: function( event ) {
+			event.preventDefault();
+			$( document.body ).scrollTo('#section-history', 500);
+		},
+		toContacts: function( event ) {
+			event.preventDefault();
+			$( document.body ).scrollTo('#section-contacts', 500);
 		}
 	});
 	return Header;

@@ -2,6 +2,236 @@
 .g-hidden {
   display: none;
 }
-body h2 {
-  color: darkblue;
+.g-20left {
+  position: relative;
+  left: -20px;
+}
+.g-40left {
+  position: relative;
+  left: -20px;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  margin: 0 100px;
+  opacity: 0.4;
+}
+.carousel-indicators li:hover {
+  opacity: 0.7;
+}
+.carousel-indicators li.active {
+  margin: 0 100px;
+}
+.carousel-style {
+  height: 900px;
+}
+.carousel-style .carousel-caption {
+  bottom: 50%;
+  margin-bottom: -270px;
+}
+.carousel-style .carousel-caption p {
+  min-height: 140px;
+}
+.carousel-style .carousel-inner {
+  height: 100%;
+}
+.carousel-style .item {
+  height: 100%;
+}
+.carousel-style .carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: saturate(1.2);
+}
+.carousel-style .carousel-image .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(8, 0, 26, 0.37);
+}
+.carousel-style .mgudt {
+  background-image: url('src/carousel/mgudt.jpg');
+}
+.carousel-style .Moscow {
+  background-image: url('src/carousel/stalin1.jpg');
+}
+.carousel-style .Moscow .overlay {
+  background-color: rgba(8, 0, 26, 0.4);
+}
+.carousel-style .hi {
+  background-image: url('src/carousel/javascript.jpg');
+}
+.carousel-style .hi .overlay {
+  background-color: rgba(8, 0, 26, 0.4);
+}
+.carousel-style .kl {
+  background-image: url('src/carousel/kl3.jpg');
+}
+.carousel-style .kl .overlay {
+  background-color: rgba(8, 0, 26, 0.4);
+}
+.carousel-style .down-next {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -25px;
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.7;
+}
+.carousel-style .down-next:hover {
+  opacity: 1;
+}
+@media (max-width: 481px) {
+  .carousel-style {
+    height: 400px;
+  }
+  .carousel-style h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 321px) {
+  .carousel-style {
+    height: 400px;
+  }
+  .carousel-style h1 {
+    font-size: 27px;
+  }
+}
+.top-menu {
+  width: 100%;
+  height: 100px;
+  color: #fff;
+  padding: 0 40px;
+  position: absolute;
+  z-index: 5;
+}
+.top-menu__logo {
+  height: 50px;
+  padding: 40px 40px;
+  font-size: 18px;
+  line-height: 20px;
+  float: left;
+}
+.top-menu__list {
+  float: right;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 0;
+  transition: 400ms ease all;
+}
+.top-menu__list-wrapper {
+  overflow: hidden;
+  float: right;
+  width: 470px;
+  height: 100px;
+  position: relative;
+}
+.top-menu__item {
+  display: inline-block;
+  padding: 40px 30px;
+  height: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.top-menu__toggle {
+  float: right;
+  font-size: 30px;
+  padding: 32px 30px;
+  display: inline-block;
+  height: 100px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.top-menu .glyphicon-menu-hamburger {
+  display: none;
+}
+.top-menu .glyphicon-remove {
+  display: block;
+}
+.top-menu_list-hidden .top-menu__list {
+  right: -100%;
+  transition: 400ms ease all;
+}
+.top-menu_list-hidden .glyphicon-menu-hamburger {
+  display: block;
+}
+.top-menu_list-hidden .glyphicon-remove {
+  display: none;
+}
+.top-menu a {
+  color: #dfdfdf;
+}
+.top-menu a:hover {
+  color: #fff;
+}
+.button {
+  color: #434a54;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  width: auto;
+  font-size: 13px;
+  border-radius: 2px;
+  transition: 0.3s background-color ease;
+  background-color: transparent;
+  border: #dde3eb 1px solid;
+  display: inline-block;
+}
+.button:hover {
+  transition: 0.3s background-color ease;
+  background-color: #F1F2F3;
+}
+.bg-light-gray {
+  background-color: #f4f5f6;
+}
+.section {
+  padding: 50px 0;
+  min-height: 400px;
+}
+.feature__img {
+  width: 180px;
+  height: 180px;
+}
+.feature__img_cef {
+  width: auto;
+  position: relative;
+  right: -23px;
+}
+.feature__header {
+  margin: 0;
+  padding: 37px 0 20px 0;
+  font-weight: 300;
+}
+.feature p {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+@media (max-width: 999px) {
+  .feature p {
+    min-height: 63px;
+  }
+}
+.footer {
+  padding-top: 200px;
+  background-color: #444E5A;
+  color: #C0CCDC;
+}
+.footer a {
+  color: #C0CCDC;
+  font-weight: 500;
+}
+.pic-card__header {
+  margin-top: 90px;
 }

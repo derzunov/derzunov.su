@@ -9,9 +9,11 @@ define(['backbone'], function() {
 		},
 
 		routes: {
-			"": "page", // Пустой hash-тэг
-			"!/": "page", // Начальная страница
-			"!/pages/:page": "page" // Блок ошибки
+			"": "page", //
+			"!/": "page", //
+			"!/pages/:page": "page", //
+			"!/post/:id": "post", //
+			"!/post": "post" //
 		},
 
 		page: function( pageId ) {
@@ -27,6 +29,20 @@ define(['backbone'], function() {
 			if ( this.container.pagesList['Page' + pageId ] != null ) {
 				this.container.pagesList['Page' + pageId ]._show();
 			}
+		},
+
+		post: function( id ) {
+			_.each(this.container.pagesList, function( page ) {
+				page._hide();
+			});
+
+			if (!id) {
+				this.container.pagesList['PageTestapi' ]._show();
+			} else {
+				this.container.pagesList['PageTestapiitem' ]._show();
+			}
+
+
 		}
 
 	});

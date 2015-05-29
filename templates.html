@@ -1,13 +1,212 @@
+<!-- Template: Footer-->
+<script type="text/template" id="Footer">
+<div class="footer">
+    <div class="container">
+        <footer>
+            <p class="pull-right"><a class="js-go-to-top" href="#">Наверх</a></p>
+            <p>© 2015 Dmitry Erzunov. ·
+                <a href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" target="_blank">LinkedIn</a> ·
+                <a href="http://vk.com/tonky" target="_blank">VK</a>
+            </p> ·
+            <a href="#" class="js-go-to-top">Главная</a> ·
+            <a href="#" class="js-go-to-skills">Навыки</a> ·
+            <a href="#" class="js-go-to-history">Опыт</a> ·
+            <a href="#" class="js-go-to-contacts">Контакты</a>
+        </footer>
+    </div>
+</div>
+</script>
+<!---->
 <!-- Template: Header-->
 <script type="text/template" id="Header">
-<div>Я - Хэдер!</div>
+<div class="top-menu top-menu_list-hidden js-top-menu">
+    <div class="top-menu__logo">
+        <a href="/">derzunov.su</a>
+    </div>
+
+    <div class="top-menu__toggle js-top-menu-toggle">
+        <a href="#">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="top-menu__list-wrapper">
+        <ul class="top-menu__list">
+            <li class="top-menu__item top-menu__item-active">
+                <a href="#!/" class="" >Главная</a>
+            </li>
+            <li class="top-menu__item">
+                <a href="#" class="js-go-to-skills">Навыки</a>
+            </li>
+
+            <li class="top-menu__item">
+                <a href="#" class="js-go-to-history">Опыт</a>
+            </li>
+            <li class="top-menu__item">
+                <a href="#" class="js-go-to-contacts">Контакты</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
 </script>
 <!---->
 <!-- Template: Page1-->
 <script type="text/template" id="Page1">
-<div id="page-Page1">
-    <h1>Страница 1</h1>
+<div id="myCarousel-1" class="js_carousel carousel-style slide">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div  class="carousel-image hi">
+                <!--<video loop autoplay="autoplay" muted="muted" poster="/app/styles/src/carousel/javascript.jpg" style="width: 1903px; height: auto; visibility: visible;">-->
+                    <!--&lt;!&ndash;<source src="app/media/6399266.mp4" type="video/mp4">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.mp4" type="video/mp4">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.webm" type="video/webm">&ndash;&gt;-->
+                <!--</video>-->
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Привет!</h1>
+                    <p>
+                        Меня зовут Дмитрий Ерзунов. Я - Javascript разработчик. <br>
+                        Расскажу Вам немного о себе.
+                        Следующий слайд, пожалуйста.
+                    </p>
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" role="button">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image Moscow">
+                <!--<video loop autoplay="autoplay" muted="muted" poster="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.jpg" style="width: 1903px; height: auto; visibility: visible;">-->
+                    <!--&lt;!&ndash;<source src="app/media/3433190.mp4" type="video/mp4">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.mp4" type="video/mp4">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<source src="https://www.paypalobjects.com/webstatic/mktg/wright/videos/home-signup.webm" type="video/webm">&ndash;&gt;-->
+                <!--</video>-->
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>МОСКВА</h1>
+                    <p>Мне повезло жить в лучшем и красивейшем городе на&nbsp;свете.<br/>Он строился не сразу и не верит слезам.</p>
+
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image mgudt">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>МГУДТ</h1>
+                    <p>Ленивая&nbsp;юность, лекции, консекты, лабораторки. <br/> Беззаботное студенчество и бессонные&nbsp;ночи перед&nbsp;экзаменами подарили мне уйму знаний и верных друзей.</p>
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,-->
+                        <!--sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>-->
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">На сайт</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image kl">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Лаборатория Касперского</h1>
+                    <p>Будучи мальчишкой, я и представить не мог, что буду работать в&nbsp;легендарной лаборатории.</p>
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,-->
+                        <!--sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>-->
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="http://kaspersky.com" role="button">На сайт</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a class="left carousel-control" href="#myCarousel-1" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel-1" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <a href="#" class="down-next js-main-first-down-next">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+    </a>
 </div>
+<section id="section-skills" class="section">
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-sm-4 feature">
+                <img class="img-circle feature__img" src="app/img/JavaScript-logo.png" alt="Generic placeholder image">
+                <h2 class="feature__header">Client</h2>
+                <p>VanillaJS, BackboneJS, AngularJS и т.п.</p>
+                <p><a target="_blank"  class="button" href="http://javascript.ru/" role="button">Reed more</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-4 feature">
+                <img class="img-circle feature__img" src="app/img/nodejs-logo2.png" alt="Generic placeholder image">
+                <h2 class="feature__header">Server</h2>
+                <p>Node.js, express, sailsJS и т.п.</p>
+                <p><a target="_blank"  class="button" href="https://nodejs.org/" role="button">Reed more</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-4 feature">
+                <img class="img-circle feature__img feature__img_cef" src="app/img/chromium_embedded_framework_logo.jpg" alt="Generic placeholder image">
+                <h2 class="feature__header">Desktop</h2>
+                <p>Chromium Embedded Framework (CEF)</p>
+                <p><a target="_blank"  class="button" href="https://code.google.com/p/chromiumembedded/" role="button">Reed more</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+</section>
+<section class="section bg-light-gray">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header">Технологии и техники бывают разными. <br/><span class="text-muted">С чем мне приходилось иметь дело?</span></h2>
+                <p class="lead">VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML, CSS</p>
+            </div>
+            <div class="col-md-5">
+                <img width="500" class="featurette-image img-responsive" alt="javascript rocket" src="app/img/rocket.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-history" class="section">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img width="500" class="featurette-image img-responsive g-40left" alt="javascript pencil" src="app/img/Pencil.png">
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header"> Разные компании. <br/><span class="text-muted">Интересный и богатый опыт.</span></h2>
+                <p class="lead">В <b>Positive Technologies</b> я участвовал в разработке MaxPatrol 9 и внутреннего портала. В <b>Финам</b> мы с коллегами трудились над социальной сетью Whotrades.com. Ну а в компании <b>Мегаплан</b> мы создавали одноимённую CRM-систему. Теперь я посвятил себя работе в <b>Лаборатории Касперского</b>.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-contacts" class="section bg-light-gray">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header">Как меня найти? <br/><span class="text-muted">Очень просто!</span></h2>
+                <p class="lead">Вам могут подойти: социальная сеть <a target="_blank" href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru">LinkedIn</a>, моя&nbsp;электронная&nbsp;почта на&nbsp;<a href="mailto:derzunov.work@gmail.com">gmail</a>,
+                    или, если&nbsp;интересны&nbsp;фоточки&nbsp;и&nbsp;всё&nbsp;такое, моя&nbsp;страничка&nbsp;на&nbsp;<a target="_blank" href="vk.com/tonky">vk.com</a> </p>
+            </div>
+            <div class="col-md-5">
+                <img width="500" class="featurette-image img-responsive" alt="javascript rocket" src="app/img/GPS.png">
+            </div>
+        </div>
+    </div>
+</section>
 </script>
 <!---->
 <!-- Template: Page2-->
@@ -20,5 +219,23 @@
 <!-- Template: PageCustomName-->
 <script type="text/template" id="PageCustomName">
 <h2>Custom Name</h2>
+</script>
+<!---->
+<!-- Template: PageTestapi-->
+<script type="text/template" id="PageTestapi">
+<div>
+    <div style="background-color: black; height: 100px;" ></div>
+    <h2>Page Test API</h2>
+
+    <p>Тестируем возможность выводить список</p>
+</div>
+
+</script>
+<!---->
+<!-- Template: PostTemplate-->
+<script type="text/template" id="PostTemplate">
+<h3><%=title%></h3>
+<p><%=content%></p>
+
 </script>
 <!---->

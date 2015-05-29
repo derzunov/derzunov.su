@@ -19,6 +19,14 @@ module.exports = function (grunt) {
 				dest: 'app/models/compiled',
 				ext: '.js'
 			},
+			collections: {
+				expand: true,
+				flatten: true,
+				cwd: 'app/collections',
+				src: ['*.coffee'],
+				dest: 'app/collections/compiled',
+				ext: '.js'
+			},
 			configs: {
 				expand: true,
 				flatten: true,
@@ -30,7 +38,7 @@ module.exports = function (grunt) {
 		},
 		concat: {
 			templates: {
-				src: ['app/templates/*.html'],
+				src: ['app/templates/*.html', 'app/templates/*.ejs'],
 				dest: 'templates.html',
 
 				options: {
@@ -61,12 +69,12 @@ module.exports = function (grunt) {
 		watch: {
 
 			styles: {
-				files: ['app/styles/src/**/*.less'],
+				files: ['app/styles/src/**/*.less', 'app/styles/styles.less'],
 				tasks: ['less']
 			},
 
 			templates: {
-				files: ['app/templates/*.html'],
+				files: ['app/templates/*.html', 'app/templates/*.ejs'],
 				tasks: ['concat:templates']
 			},
 
@@ -76,7 +84,7 @@ module.exports = function (grunt) {
 			},
 			coffee: {
 				files: ['app/**/*.coffee'],
-				tasks: ['coffee:models', 'coffee:configs']
+				tasks: ['coffee:models', 'coffee:collections', 'coffee:configs']
 			}
 		}
 	});
