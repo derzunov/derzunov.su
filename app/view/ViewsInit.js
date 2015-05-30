@@ -5,10 +5,8 @@ define([
 	'backbone',
 	'./Header',
 	'./Footer',
-	'./Page1',
-	'./Page2',
-	'./PageCustomName'
-], function(  Backbone, Header, Footer, Page1, Page2, PageCustomName ) {
+	'./Page1'
+], function(  Backbone, Header, Footer, Page1 ) {
 	return function() {
 		return {
 			defaultViews: {
@@ -16,9 +14,7 @@ define([
 				Footer: new Footer()
 			},
 			pageList: {
-				Page1: new Page1(),
-				Page2: new Page2().render(),
-				PageCustomName: new PageCustomName().render()
+				Page1: new Page1()
 			}
 		};
 	}

@@ -8,7 +8,7 @@ requirejs.config({
 	baseUrl: 'lib',
 	shim : {
 		bootstrap : { "deps" :['jquery'] },
-		scrollTo: {"exports" : "jquery.scrollTo"}
+		scrollTo: {"exports" : "jQuery.scrollTo"}
 	},
 	paths: {
 		bootstrap: 'bootstrap.min',
