@@ -5,7 +5,7 @@ define(['backbone'], function() {
 	var Router = Backbone.Router.extend({
 
 		initialize: function() {
-			this.container = window.DI.getContainer();
+
 		},
 
 		routes: {
@@ -22,27 +22,26 @@ define(['backbone'], function() {
 				pageId = 1;
 			}
 
-			_.each(this.container.pagesList, function( page ) {
+			_.each(window.pagesList, function( page ) {
 				page._hide();
 			});
 
-			if ( this.container.pagesList['Page' + pageId ] != null ) {
-				this.container.pagesList['Page' + pageId ]._show();
+			if ( window.pagesList['Page' + pageId ] != null ) {
+				window.pagesList['Page' + pageId ]._show();
 			}
 		},
 
 		post: function( id ) {
-			_.each(this.container.pagesList, function( page ) {
+			_.each(window.pagesList, function( page ) {
 				page._hide();
 			});
 
+
 			if (!id) {
-				this.container.pagesList['PageTestapi' ]._show();
+				window.pagesList['PageTestapi' ]._show();
 			} else {
-				this.container.pagesList['PageTestapiitem' ]._show();
+				window.pagesList['PageTestapiitem' ]._show();
 			}
-
-
 		}
 
 	});

@@ -16,7 +16,6 @@ define([ 'backbone', './defaultView' ], function( Backbone, DefaultView ) {
 
 		initialize: function () {
 			this.render();
-			this.container = window.DI.getContainer();
 		},
 
 		toTop: function( event ) {
