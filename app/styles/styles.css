@@ -69,7 +69,7 @@
   background-image: url('src/carousel/javascript.jpg');
 }
 .carousel-style .hi .overlay {
-  background-color: rgba(8, 0, 26, 0.4);
+  background-color: rgba(8, 0, 26, 0.9);
 }
 .carousel-style .kl {
   background-image: url('src/carousel/kl3.jpg');
@@ -88,6 +88,11 @@
 }
 .carousel-style .down-next:hover {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .carousel-style .carousel-caption p {
+    min-height: 170px;
+  }
 }
 @media (max-width: 481px) {
   .carousel-style {
@@ -120,6 +125,14 @@
   line-height: 20px;
   float: left;
 }
+@media screen and (max-width: 768px) {
+  .top-menu__logo {
+    float: none;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 .top-menu__list {
   float: right;
   padding: 0;
@@ -135,12 +148,27 @@
   height: 100px;
   position: relative;
 }
+@media screen and (max-width: 1024px) {
+  .top-menu__list-wrapper {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-menu__list {
+    display: none;
+  }
+}
 .top-menu__item {
   display: inline-block;
   padding: 40px 30px;
   height: 100px;
   box-sizing: border-box;
   vertical-align: top;
+}
+@media screen and (max-width: 1024px) {
+  .top-menu__item {
+    padding: 40px 15px;
+  }
 }
 .top-menu__toggle {
   float: right;
@@ -150,6 +178,11 @@
   height: 100px;
   box-sizing: border-box;
   vertical-align: top;
+}
+@media screen and (max-width: 768px) {
+  .top-menu__toggle {
+    display: none;
+  }
 }
 .top-menu .glyphicon-menu-hamburger {
   display: none;
