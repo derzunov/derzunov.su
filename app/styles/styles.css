@@ -6,9 +6,14 @@
   position: relative;
   left: -20px;
 }
+@media screen and (max-height: 640px) {
+  .g-20left {
+    left: 0;
+  }
+}
 .g-40left {
   position: relative;
-  left: -20px;
+  left: -40px;
 }
 .carousel-indicators li {
   border-radius: 50%;
@@ -48,6 +53,11 @@
   background-position: center;
   -webkit-filter: saturate(1.2);
 }
+@media screen and (max-width: 640px) {
+  .carousel-style .carousel-image video {
+    display: none;
+  }
+}
 .carousel-style .carousel-image .overlay {
   position: absolute;
   top: 0;
@@ -70,6 +80,11 @@
 }
 .carousel-style .hi .overlay {
   background-color: rgba(8, 0, 26, 0.9);
+}
+@media screen and (max-width: 640px) {
+  .carousel-style .hi .overlay {
+    background-color: rgba(8, 0, 26, 0.5);
+  }
 }
 .carousel-style .kl {
   background-image: url('src/carousel/kl3.jpg');

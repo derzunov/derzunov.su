@@ -41,6 +41,13 @@
     background-position: center;
 
     -webkit-filter: saturate(1.2);
+
+    @media screen and ( max-width: 640px ) {
+      video {
+        display: none;
+      }
+    }
+
     .overlay {
       position: absolute;
       top: 0;
@@ -65,7 +72,14 @@
     background-image: url('javascript.jpg');
     .overlay {
       background-color: rgba(8, 0, 26, 0.9);
+      @media screen and ( max-width: 640px ) {
+        & {
+          background-color: rgba(8, 0, 26, 0.5);
+        }
+      }
     }
+
+
   }
 
   .kl {

@@ -1,7 +1,7 @@
 /**
  * Created by Erzunov on 16.02.2015.
  */
-define([ 'backbone', './defaultPage', 'jquery.scrollTo' ], function( Backbone, DefaultPage ) {
+define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], function( Backbone, DefaultPage ) {
 	var Page1 = DefaultPage.extend({
 
 		el: $("#Page1_wrapper"), // DOM элемент widget'а
@@ -22,6 +22,14 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo' ], function( Backbone, D
 				$('.carousel-style').height($(window).height());
 				$('.js_carousel').carousel();
 			});
+
+			this.$el.find('.feature__img').inViewport({
+				callbackIn: function( $element ) {
+					console.log('IN!');
+					console.log(this);
+					console.log($element);
+				}
+			})
 		},
 
 		downNext: function( event ) {

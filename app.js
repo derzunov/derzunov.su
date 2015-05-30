@@ -8,12 +8,19 @@ requirejs.config({
 	baseUrl: 'lib',
 	shim : {
 		bootstrap : { "deps" :['jquery'] },
-		"jquery.scrollTo.min": ["jquery"]
+		"jquery.scrollTo.min": ["jquery"],
+		'create-jq-plugin': ["jquery"],
+		'in-viewport': ["create-jq-plugin", "jquery"],
+		rivets : {
+			"deps" : ["sightglass"],
+			"exports" : "rivets"
+		}
 	},
 	paths: {
-		bootstrap: 'bootstrap.min',
-		jquery: 'jquery-1.11.3.min',
-		cppFunctions: '../app/configs/compiled/cppFunctions',
-		app: '../app'
+		bootstrap: 'bootstrap',
+		jquery: 'jquery-1.11.3',
+		app: '../app',
+		"sightglass": "sightglass",
+		"rivets": "rivets"
 	}
 });

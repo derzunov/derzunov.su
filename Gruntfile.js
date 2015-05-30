@@ -44,12 +44,12 @@ module.exports = function (grunt) {
 				dest: 'app/view/',
 				ext: '.js'
 			},
-			helper: {
+			lib: {
 				expand: true,
 				flatten: true,
-				cwd: 'app/helper',
+				cwd: 'lib',
 				src: ['*.coffee'],
-				dest: 'app/helper/',
+				dest: 'lib/',
 				ext: '.js'
 			}
 		},
@@ -101,7 +101,7 @@ module.exports = function (grunt) {
 			},
 			coffee: {
 				files: ['app/**/*.coffee'],
-				tasks: ['coffee:app', 'coffee:model', 'coffee:collection', 'coffee:view', 'coffee:helper']
+				tasks: ['coffee:app', 'coffee:model', 'coffee:collection', 'coffee:view', 'coffee:lib']
 			}
 		},
 		requirejs: {
@@ -112,7 +112,7 @@ module.exports = function (grunt) {
 					name: 'app/main',
 					include: ['app'],
 					out: "production/app.js",
-					optimize: 'none'
+					optimize: 'uglify'
 				}
 			}
 		},
@@ -138,8 +138,16 @@ module.exports = function (grunt) {
 				src: 'app/styles/src/**/*.png',
 				dest: 'production/'
 			},
-			img: {
+			stylesJpg: {
+				src: 'app/styles/src/**/*.jpg',
+				dest: 'production/'
+			},
+			imgPng: {
 				src: 'app/**/*.png',
+				dest: 'production/'
+			},
+			imgJpg: {
+				src: 'app/**/*.jpg',
 				dest: 'production/'
 			},
 			stylesFonts: {
