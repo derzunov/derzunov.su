@@ -25,9 +25,21 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], functi
 
 			this.$el.find('.feature__img').inViewport({
 				callbackIn: function( $element ) {
-					console.log('IN!');
-					console.log(this);
-					console.log($element);
+					setTimeout(function(){
+						$element.removeClass('__before-seen');
+						$element.removeClass('__before-seen__right');
+						$element.addClass('__have-seen');
+					}, 100)
+
+				}
+			});
+
+			this.$el.find('.js_feature_image').inViewport({
+				callbackIn: function( $element ) {
+					$element.removeClass('__before-seen__right');
+					$element.removeClass('__before-seen');
+					$element.addClass('__have-seen');
+
 				}
 			})
 		},

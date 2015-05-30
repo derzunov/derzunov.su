@@ -113,6 +113,7 @@ module.exports = function (grunt) {
 					include: ['app'],
 					out: "production/app.js",
 					optimize: 'uglify'
+					//optimize: 'none'
 				}
 			}
 		},

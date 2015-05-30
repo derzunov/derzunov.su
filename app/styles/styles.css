@@ -4,16 +4,32 @@
 }
 .g-20left {
   position: relative;
-  left: -20px;
+  left: -20px !important;
 }
 @media screen and (max-height: 640px) {
   .g-20left {
-    left: 0;
+    left: 0 !important;
   }
 }
 .g-40left {
   position: relative;
   left: -40px;
+}
+.__before-seen {
+  position: relative;
+  left: -50px;
+  opacity: 0;
+}
+.__before-seen__right {
+  position: relative;
+  left: 50px;
+  opacity: 0;
+}
+.__have-seen {
+  transition: all 0.4s ease-in;
+  left: 0;
+  position: relative;
+  opacity: 1;
 }
 .carousel-indicators li {
   border-radius: 50%;

@@ -74,8 +74,9 @@
             windowRight = windowWidth + windowLeft # от левого края документа до правой границы окна
 
             # Если в области видимости и колбэк нужно выполнить
-            if nodeTop > windowTop and nodeBottom < windowBottom and
-            nodeLeft > windowLeft and windowRight > nodeRight
+            # Подправил под себя (Верхняя половина элемента показалась)
+            # А горизонтальные координаты мне не важны
+            if nodeTop > windowTop and nodeTop+nodeHeight/2 < windowBottom
 
                 if @options.debug
                     console.log( 'Элемент ', @$node.get(0), ' в области видимости' )
@@ -138,7 +139,7 @@
                                     # Указываем, что колбэк уже вызывался
                                     @outCallbackWasCalled = true
 
-    createJQPlugin InViewport
+    createJQPlugin InViewport, 'inViewport'
 
     ###
     *  Пример
