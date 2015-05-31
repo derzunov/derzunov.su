@@ -14,13 +14,21 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], functi
 		},
 
 		initialize: function () {
-			var self = this;
+			var self = this,
+				isMSIE = !!(navigator.userAgent.indexOf('MSIE') + 1);
 
 			this.render();
 
 			$( document ).ready(function() {
 				$('.carousel-style').height($(window).height());
 				$('.js_carousel').carousel();
+
+				console.log(isMSIE);
+				if( isMSIE ) {
+
+					$('#myModal').modal('show');
+				}
+
 			});
 
 			this.$el.find('.feature__img').inViewport({

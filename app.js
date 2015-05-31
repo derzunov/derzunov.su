@@ -11,6 +11,7 @@ requirejs.config({
 		"jquery.scrollTo.min": ["jquery"],
 		'create-jq-plugin': ["jquery"],
 		'in-viewport': ["create-jq-plugin", "jquery"],
+		'isIE': ["jquery"],
 		rivets : {
 			"deps" : ["sightglass"],
 			"exports" : "rivets"

@@ -15,9 +15,9 @@
             @options = $.extend true,
 
                 callbackIn: () ->
-                    console.log( 'callbackIn не передан в опции плагинна' )
+                    #console.log( 'callbackIn не передан в опции плагинна' )
                 callbackOut: () ->
-                    console.log( 'calbackOut не передан в опции плагинна' )
+                    #console.log( 'calbackOut не передан в опции плагинна' )
                 # Повторять ли коллбэк при каждом событии вхождения/выхождения из области видимости
                 repeatIn: false
                 repeatOut: false

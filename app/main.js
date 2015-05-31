@@ -19,6 +19,7 @@ define([
 		var views,
 			router;
 
+
 		/* Инициализируем все вьюхи, плюс получаем набор этих самых вьюх */
 		views = ViewsInit();
 
@@ -28,5 +29,6 @@ define([
 		router = new Router();
 
 		Backbone.history.start();
+		console.log("%c Ну-ка нах*й не крути тут ничего!","font-size: 30px; color: red");
 });
 

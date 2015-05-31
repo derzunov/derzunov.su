@@ -100,7 +100,7 @@ module.exports = function (grunt) {
 				tasks: ['concat:index']
 			},
 			coffee: {
-				files: ['app/**/*.coffee'],
+				files: ['app/**/*.coffee','lib/**/*.coffee'],
 				tasks: ['coffee:app', 'coffee:model', 'coffee:collection', 'coffee:view', 'coffee:lib']
 			}
 		},
