@@ -162,6 +162,14 @@ module.exports = function (grunt) {
 			stylesFonts: {
 				src: 'app/styles/src/**/*.woff',
 				dest: 'production/'
+			},
+			media: {
+				src: 'app/media/*',
+				dest: 'production/'
+			},
+			fonts: {
+				src: 'app/fonts/*',
+				dest: 'production/'
 			}
 		}
 	});
