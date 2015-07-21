@@ -7,7 +7,7 @@ define(
 
         class Client extends DefaultModel
             defaults:
-                lc: 'ru' # Language Code
+                lc: 'en' # Language Code
 
             initialize: () ->
                 window.client = @
