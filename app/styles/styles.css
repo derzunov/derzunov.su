@@ -49,9 +49,6 @@
   bottom: 50%;
   margin-bottom: -270px;
 }
-.carousel-style .carousel-caption .long-header.long-header__very-long {
-  font-size: 40px;
-}
 .carousel-style .carousel-caption p {
   min-height: 140px;
 }
@@ -123,6 +120,11 @@
 }
 .carousel-style .down-next:hover {
   opacity: 1;
+}
+@media (min-width: 1024px) and (max-width: 2500px) {
+  .carousel-style .carousel-caption .long-header.long-header__very-long {
+    font-size: 40px;
+  }
 }
 @media (max-width: 1024px) {
   .carousel-style .carousel-caption .long-header {
@@ -204,6 +206,9 @@
 }
 @media screen and (max-width: 768px) {
   .top-menu__list {
+    display: none;
+  }
+  .top-menu__list-wrapper {
     display: none;
   }
 }

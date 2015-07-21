@@ -25,8 +25,8 @@ define(
             p1_skills_header2: "What I had to deal with?"
             p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
 
-            p1_xp_header1: 'Various companies.'
-            p1_xp_header2: 'Interesting and vast experience.'
+            p1_xp_header1: "Various companies."
+            p1_xp_header2: "Interesting and vast experience."
             p1_xp_text: 'As the <b>Positive Technologies</b> employee, I&nbsp;participated in&nbsp;the&nbsp;development of MaxPatrol 9 and internal portal.
     In <b>Finam</b> our team worked on the social network Whotrades.com. In&nbsp;the&nbsp;<b>Megaplan</b> company we&nbsp;created the similarly-named CRM-system.
     Presently, I devote myself to the work for <b>Kaspersky Lab</b>.'

@@ -25,6 +25,9 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
                     $('#myModal').modal('show')
             )
 
+            $( window ).on 'resize', () ->
+              $('.carousel-style').height($(window).height())
+
             this.$el.find('.feature__img').inViewport({
                 callbackIn: ( $element ) ->
 
