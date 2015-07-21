@@ -128,8 +128,8 @@ module.exports = function (grunt) {
 					name: 'app/main',
 					include: ['app'],
 					out: "production/app.js",
-					//optimize: 'uglify'
-					optimize: 'none'
+					optimize: 'uglify'
+					//optimize: 'none'
 				}
 			}
 		},
