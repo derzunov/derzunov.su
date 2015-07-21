@@ -16,7 +16,7 @@ define(
 
         p1_slider_slide4_h1: "Kaspersky Lab"
         p1_slider_slide4_text: "In my boyhood days, I could not imagine that I would work for the legendary laboratory.<br>
-                        Now being a part of the professionals’ team, I save the world from cyber threats."
+                        Now being a part of the professionals’ team, I&nbdp;save the world from cyber threats."
 
         read_more: "Read"
         to_website: "Website"
@@ -27,8 +27,8 @@ define(
 
         p1_xp_header1: 'Various companies.'
         p1_xp_header2: 'Interesting and vast experience.'
-        p1_xp_text: 'As the <b>Positive Technologies</b> employee, I participated in the development of MaxPatrol 9 and internal portal.
-In <b>Finam</b> our team worked on the social network Whotrades.com. In the <b>Megaplan</b> company we created the similarly-named CRM-system.
+        p1_xp_text: 'As the <b>Positive Technologies</b> employee, I&nbdp;participated in&nbdp;the&nbdp;development of MaxPatrol 9 and internal portal.
+In <b>Finam</b> our team worked on the social network Whotrades.com. In&nbdp;the&nbdp;<b>Megaplan</b> company we&nbdp;created the similarly-named CRM-system.
 Presently, I devote myself to the work for <b>Kaspersky Lab</b>.'
 
 
