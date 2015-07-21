@@ -51,6 +51,14 @@ module.exports = function (grunt) {
 				src: ['*.coffee'],
 				dest: 'lib/',
 				ext: '.js'
+			},
+			helper: {
+				expand: true,
+				flatten: true,
+				cwd: 'app/helper',
+				src: ['*.coffee'],
+				dest: 'app/helper/',
+				ext: '.js'
 			}
 		},
 		concat: {
