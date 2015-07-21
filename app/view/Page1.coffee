@@ -6,8 +6,8 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
 		template: () -> return $('#Page1').html()
 
 		events: {
-			'click .js-main-first-down-next': 'downNext',
-			'click .right ': 'right',
+			'click .js-main-first-down-next': 'downNext'
+			'click .right ': 'right'
 			'click .left ': 'left'
 		},
 
