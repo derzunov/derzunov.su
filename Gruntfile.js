@@ -139,13 +139,9 @@ module.exports = function (grunt) {
 				src: 'index.html',
 				dest: 'production/index.html'
 			},
-			stylesBS: {
-				src: 'app/styles/bootstrap.min.css ',
-				dest: 'production/app/styles/bootstrap.min.css'
-			},
-			styles: {
-				src: 'app/styles/styles.css',
-				dest: 'production/app/styles/styles.css'
+			stylesAll: {
+				src: 'app/styles/**/*.css',
+				dest: 'production/'
 			},
 			stylesSvg: {
 				src: 'app/styles/src/**/*.svg',
