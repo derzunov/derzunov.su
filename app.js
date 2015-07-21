@@ -12,9 +12,13 @@ requirejs.config({
 		'create-jq-plugin': ["jquery"],
 		'in-viewport': ["create-jq-plugin", "jquery"],
 		'isIE': ["jquery"],
+		DDIC : { exports: 'DDIC'},
+		sightglass : {
+			"exports" : "sightglass"
+		},
 		rivets : {
-			"deps" : ["sightglass"],
-			"exports" : "rivets"
+			"deps" : ["sightglass"]
+
 		}
 	},
 	paths: {
