@@ -12,11 +12,15 @@ define(
                 'click .js-go-to-skills': 'toSkills'
                 'click .js-go-to-history': 'toHistory'
                 'click .js-go-to-contacts': 'toContacts'
+                'click .js_language_toggle': 'langToggle'
             }
 
             initialize: () ->
                 @render()
+                @di().get( 'rivets' ).bind( @el, {c: @di().get( 'client' )} )
+
                 @di().set 'header', @
+                @client = @di().get('client');
 
             toggleMenu: ( event ) ->
                 event.preventDefault()
@@ -38,6 +42,14 @@ define(
             toContacts: ( event ) ->
                 event.preventDefault()
                 $( document.body ).scrollTo('#section-contacts', 500)
+
+            langToggle: ( event ) ->
+                event.preventDefault()
+
+                if (@client.get 'lc') == 'ru'
+                    @client.setLang 'en'
+                else
+                    @client.setLang 'ru'
 
         return HeaderView;
 );

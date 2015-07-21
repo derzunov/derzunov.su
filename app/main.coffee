@@ -14,6 +14,7 @@ define(
     '../app/view/ViewsInit',
 
     '../app/model/Localization'
+    '../app/model/Client'
 
     '../app/helper/rivetsAdapters',
     '../app/helper/rivetsBinders',
@@ -27,6 +28,7 @@ define(
         Router
         ViewsInit
         Localization
+        Client
 
     ) ->
 
@@ -43,6 +45,9 @@ define(
 
         di.set('loc', () ->
             new Localization()
+        )
+        di.set('client', () ->
+            new Client()
         )
 
 

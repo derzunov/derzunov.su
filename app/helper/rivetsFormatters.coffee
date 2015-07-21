@@ -44,13 +44,8 @@ define(
             isNotLength: ( value ) ->
                 value and value.length == 0
 
-            localize: ( langCode, key, num  ) ->
-                if ( num == undefined )
-                    num = 0
-                if num == 'simple'
-                    return di.get('client').localize key
-
-                return di.get('client').localize key, num
+            loc: ( langCode, key  ) ->
+                return di.get('loc').localize key, langCode
 
         }
 

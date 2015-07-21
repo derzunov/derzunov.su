@@ -12,11 +12,10 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
 		},
 
 		initialize:  () ->
-            self = @
             isMSIE = !!(navigator.userAgent.indexOf('MSIE') + 1)
 
             @render()
-            @di().get( 'rivets' ).bind( @el, {loc: @di().get( 'Localization' )} )
+            @di().get( 'rivets' ).bind( @el, {c: @di().get( 'client' )} )
 
             $( document ).ready(() ->
                 $('.carousel-style').height($(window).height())

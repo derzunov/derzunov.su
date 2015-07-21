@@ -17,3 +17,4 @@ production/app.js
 production/index.html
 production/app
 !production/app/fonts
+index.html
