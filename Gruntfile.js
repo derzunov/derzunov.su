@@ -59,6 +59,14 @@ module.exports = function (grunt) {
 				src: ['*.coffee'],
 				dest: 'app/helper/',
 				ext: '.js'
+			},
+			locs: {
+				expand: true,
+				flatten: true,
+				cwd: 'app/locs',
+				src: ['*.coffee'],
+				dest: 'app/locs/',
+				ext: '.js'
 			}
 		},
 		concat: {

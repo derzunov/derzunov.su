@@ -11,7 +11,9 @@ define(
     'jquery'
     '../app/helper/DI'
     '../app/router'
-    '../app/view/ViewsInit'
+    '../app/view/ViewsInit',
+
+    '../app/model/Localization'
 
     '../app/helper/rivetsAdapters',
     '../app/helper/rivetsBinders',
@@ -24,6 +26,7 @@ define(
         DI
         Router
         ViewsInit
+        Localization
 
     ) ->
 
@@ -38,11 +41,8 @@ define(
         # * NEWS ---------------------------------------------------------
         ###
 
-        di.set('client', () ->
-            new Client()
-        )
-        di.set('mockApp', () ->
-            new MockApp()
+        di.set('loc', () ->
+            new Localization()
         )
 
 

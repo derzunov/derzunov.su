@@ -3,8 +3,9 @@
 ###
 define(
     ['backbone', 'jquery', './DefaultModel'],
-    (Backbone, $, cppFunctions, DefaultModel)  ->
-        class Client extends DefaultModel
+    (Backbone, $, DefaultModel)  ->
+        
+        class Localization extends DefaultModel
             defaults:
                 languageCode: 'ru' # Например, 1 - Русский
 
@@ -12,5 +13,5 @@ define(
             initialize: () ->
                 @
 
-
+        return Localization
 )
