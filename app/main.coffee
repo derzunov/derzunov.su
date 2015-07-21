@@ -63,6 +63,8 @@ define(
 
         Backbone.history.start()
 
+        console.log('%c Ну-ка нах*й не крути тут ничего!', 'font-size: 30px; color: red');
+
 
 )
 
