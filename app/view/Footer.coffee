@@ -16,6 +16,11 @@ define(
 
             initialize: () ->
                 @render()
+                @di().get( 'rivets' ).bind( @el, {c: @di().get( 'client' )} )
+
+            toTop: ( event ) ->
+                event.preventDefault()
+                $( document.body ).scrollTo 0, 500
 
             toSkills: ( event ) ->
                 event.preventDefault()

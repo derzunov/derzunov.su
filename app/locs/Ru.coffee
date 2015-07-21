@@ -23,5 +23,25 @@ define(
 
             read_more: "Читать"
             to_website: "На сайт"
+
+            p1_skills_header1: 'Технологии и техники бывают разными.'
+            p1_skills_header2: 'С чем мне приходилось иметь дело?'
+            p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
+
+            p1_xp_header1: 'Разные компании.'
+            p1_xp_header2: 'Интересный и богатый опыт.'
+            p1_xp_text: 'В <b>Positive Technologies</b> я участвовал в разработке MaxPatrol 9 и внутреннего портала. В <b>Финам</b> мы с коллегами трудились над социальной сетью Whotrades.com. Ну а в компании <b>Мегаплан</b> мы создавали одноимённую CRM-систему. Теперь я посвятил себя работе в <b>Лаборатории Касперского</b>.'
+
+
+            p1_contacts_header1: 'Как меня найти? '
+            p1_contacts_header2: 'Очень просто!'
+            p1_contacts_text: "Вам могут подойти: социальная сеть <a target='_blank' href='http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru'>LinkedIn</a>, моя&nbsp;электронная&nbsp;почта на&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>, или, если&nbsp;интересны&nbsp;фоточки&nbsp;и&nbsp;всё&nbsp;такое, моя&nbsp;страничка&nbsp;на&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
+
+            menu_main: "Главная"
+            menu_skills: "Навыки"
+            menu_xp: "Опыт"
+            menu_contacts: "Контакты"
+
+            to_top: "Наверх"
         }
 )
