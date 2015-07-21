@@ -40,7 +40,7 @@ define(
             menu_main: "Main"
             menu_skills: "Skills"
             menu_xp: "Experience"
-            menu_contacts: "Contacts"
+            menu_contacts: "Contact me"
 
             to_top: "Up"
         }
