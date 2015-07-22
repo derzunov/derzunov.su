@@ -6,7 +6,7 @@ define(
         p1_slider_slide1_h1: "Hola!"
         p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov. Soy&nbsp;un&nbsp;Javascript&nbsp;desarrollador. <br>
                             Déjame&nbsp;hablarte un poco&nbsp;sobre mi persona.
-                            Ir a la diapositiva siguiente, por favor."
+                            Ir&nbsp;a&nbsp;la&nbsp;diapositiva siguiente, por favor."
 
         p1_slider_slide2_h1: "Moscú"
         p1_slider_slide2_text: "Soy&nbsp;afortunado de vivir en la ciudad más bella del mundo.<br> No se construyó en un día y no cree en las lágrimas."
@@ -15,7 +15,7 @@ define(
         p1_slider_slide3_text: "Calmo juventud, conferencias, epitomes y trabajos basados en los laboratorios. <br> Fascinantes años estudiantiles y noches sin dormir antes de los exámenes me dotados con océanos de conocimiento y amigos verdaderos."
 
         p1_slider_slide4_h1: "Kaspersky Lab"
-        p1_slider_slide4_text: "En días de mi infancia, no me podía imaginar que iba a trabajar por el laboratorio legendario.<br>
+        p1_slider_slide4_text: "En&nbsp;días&nbsp;de&nbsp;mi&nbsp;infancia, no&nbsp;me&nbsp;podía&nbsp;imaginar que iba a&nbsp;trabajar por&nbsp;el&nbsp;laboratorio&nbsp;legendario.<br>
                             Ahora soy un parte del equipo de los profesionales y salvo el mundo de las amenazas cibernéticas."
 
         read_more: "Leer"
