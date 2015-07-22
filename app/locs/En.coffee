@@ -16,7 +16,7 @@ define(
 
             p1_slider_slide4_h1: "Kaspersky Lab"
             p1_slider_slide4_text: "In my boyhood days, I could not imagine that I would work for the legendary laboratory.<br>
-                            Now being a part of the professionals’ team, I&nbdp;save the world from cyber threats."
+                            Now being a part of the professionals’ team, I&nbsp;save the world from cyber threats."
 
             read_more: "Read"
             to_website: "Website"
