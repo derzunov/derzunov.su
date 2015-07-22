@@ -48,6 +48,8 @@ define(
 
                 if (@client.get 'lc') == 'ru'
                     @client.setLang 'en'
+                else if (@client.get 'lc') == 'en'
+                    @client.setLang 'es'
                 else
                     @client.setLang 'ru'
 
