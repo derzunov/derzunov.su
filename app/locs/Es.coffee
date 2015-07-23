@@ -2,46 +2,46 @@ define(
     [ 'backbone', 'jquery', '../helper/DI' ],
     ()->
         return {
-            lc: "EN"
-            p1_slider_slide1_h1: "Hello!"
-            p1_slider_slide1_text: "My&nbsp;name is Dmitry&nbsp;Erzunov. I'm a&nbsp;Javascript&nbsp;developer. <br>
-                            Let me tell&nbsp;you about&nbsp;myself.
-                            Go to the next slide, please."
+        lc: "ES"
+        p1_slider_slide1_h1: "Hola!"
+        p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov. Soy&nbsp;un&nbsp;Javascript&nbsp;desarrollador. <br>
+                            Déjame&nbsp;hablarte un poco&nbsp;sobre mi persona.
+                            Vaya&nbsp;a&nbsp;la&nbsp;diapositiva siguiente, por favor."
 
-            p1_slider_slide2_h1: "MOSCOW"
-            p1_slider_slide2_text: "I&nbsp;am&nbsp;a&nbsp;lucky dog to live in the most beautiful city in the world.<br> It was not built in a day and does not believe in tears."
+        p1_slider_slide2_h1: "Moscú"
+        p1_slider_slide2_text: "Soy&nbsp;afortunado de vivir en la ciudad más bella del mundo.<br> No se construyó en un día y no cree en las lágrimas."
 
-            p1_slider_slide3_h1: "Moscow State University of Design and Technology"
-            p1_slider_slide3_text: "Lazy youth, lectures, sketches and laboratory-based work. <br> Carefree studentship and sleepless nights before the exams gifted me with oceans of knowledge and loyal friends."
+        p1_slider_slide3_h1: "Universidad Estatal de Moscú de Diseño y Tecnología"
+        p1_slider_slide3_text: "Calmo juventud, conferencias, epitomes y trabajos basados en los laboratorios. <br> Fascinantes años estudiantiles y noches sin dormir antes de los exámenes me dotados con océanos de conocimiento y amigos verdaderos."
 
-            p1_slider_slide4_h1: "Kaspersky Lab"
-            p1_slider_slide4_text: "In my boyhood days, I could not imagine that I would work for the legendary laboratory.<br>
-                            Now being a part of the professionals’ team, I&nbdp;save the world from cyber threats."
+        p1_slider_slide4_h1: "Kaspersky Lab"
+        p1_slider_slide4_text: "En&nbsp;días&nbsp;de&nbsp;mi&nbsp;infancia, no&nbsp;me&nbsp;podía&nbsp;imaginar que iba a&nbsp;trabajar por&nbsp;el&nbsp;laboratorio&nbsp;legendario.<br>
+                            Ahora soy un parte del equipo de los profesionales y salvo el mundo de las amenazas cibernéticas."
 
-            read_more: "Read"
-            to_website: "Website"
+        read_more: "Leer"
+        to_website: "Website"
 
-            p1_skills_header1: "Technologies and techniques are different."
-            p1_skills_header2: "What I had to deal with?"
-            p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
+        p1_skills_header1: "Tecnologías y técnicas son diferentes."
+        p1_skills_header2: "Aquí es lo que tenía que hacer."
+        p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
 
-            p1_xp_header1: "Various companies."
-            p1_xp_header2: "Interesting and vast experience."
-            p1_xp_text: 'As the <b>Positive Technologies</b> employee, I&nbsp;participated in&nbsp;the&nbsp;development of MaxPatrol 9 and internal portal.
-    In <b>Finam</b> our team worked on the social network Whotrades.com. In&nbsp;the&nbsp;<b>Megaplan</b> company we&nbsp;created the similarly-named CRM-system.
-    Presently, I devote myself to the work for <b>Kaspersky Lab</b>.'
+        p1_xp_header1: "Empresas fueron v˚arias."
+        p1_xp_header2: "Por eso tengo una experiencia interesante y vasto."
+        p1_xp_text: 'Como el empleado de <b>Positive Technologies</b>&nbsp;participé&nbsp;en&nbsp;el&nbsp;desarrollo de MaxPatrol 9 y un portal interno.
+    En <b>Finam</b> nuestro equipo trabajó de la red social Whotrades.com. En&nbsp;la&nbsp;empresa&nbsp;<b>Megaplan</b> creamos el sistema CRM de nombre similar.
+    Actualmente, me dedico a la labor para  <b>Kaspersky Lab</b>.'
 
 
-            p1_contacts_header1: 'How to contact me? '
-            p1_contacts_header2: 'It’s very simple!'
-            p1_contacts_text: "It may work: social network <a target='_blank' href='http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru'>LinkedIn</a> or&nbsp;my&nbsp;email on&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. In case you're interested in my private life, follow me on&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
+        p1_contacts_header1: 'Contactos'
+        p1_contacts_header2: 'Es muy fácil de ponerse en contacto conmigo.'
+        p1_contacts_text: "Se puede funcionar: la red social <a target='_blank' href='http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru'>LinkedIn</a> o&nbsp;mi&nbsp;correo&nbsp;electrónico&nbsp;de&nbsp;gmail&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. Si usted está interesado en mi vida personal sígueme&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
 
-            #Main  | Skills            | Experience  | Contact me
-            menu_main: "Main"
-            menu_skills: "Skills"
-            menu_xp: "Experience"
-            menu_contacts: "Contact me"
+#Main  | Skills            | Experience  | Contact me
+        menu_main: "Inicio"
+        menu_skills: "Habilidades"
+        menu_xp: "Experiencia"
+        menu_contacts: "Contactos"
 
-            to_top: "Up"
+        to_top: "Arriba"
         }
 )

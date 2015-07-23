@@ -1,37 +1,56 @@
 <div class="top-menu top-menu_list-hidden js-top-menu">
-    <div class="top-menu__logo">
-        <a href="/">derzunov.su</a>
+    <div class="hideLt800">
+
+        <div class="top-menu__logo">
+            <a href="/">derzunov.su</a>
+        </div>
+
+        <div class="top-menu__toggle top-menu__toggle_language">
+            <a class="js_language_toggle" href="#">
+                {c:lc | loc 'lc'}
+            </a>
+        </div>
+
+        <div class="top-menu__toggle">
+            <a class="js-top-menu-toggle" href="#">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="top-menu__list-wrapper">
+            <ul class="top-menu__list">
+                <li class="top-menu__item top-menu__item-active">
+                    <a href="#!/" class="" >{c:lc | loc 'menu_main'}</a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="#" class="js-go-to-skills">{c:lc | loc 'menu_skills'}</a>
+                </li>
+
+                <li class="top-menu__item">
+                    <a href="#" class="js-go-to-history">{c:lc | loc 'menu_xp'}</a>
+                </li>
+                <li class="top-menu__item">
+                    <a href="#" class="js-go-to-contacts">{c:lc | loc 'menu_contacts'}</a>
+                </li>
+            </ul>
+        </div>
+
     </div>
 
-    <div class="top-menu__toggle top-menu__toggle_language js_language_toggle">
-        <a href="#">
-            {c:lc | loc 'lc'}
-        </a>
+    <div class="hideGt800">
+
+        <div class="top-menu__logo">
+            <a href="/">derzunov.su</a>
+        </div>
+
+        <div class="top-menu__toggle top-menu__toggle_language">
+            <a class="js_language_toggle" href="#">
+                {c:lc | loc 'lc'}
+            </a>
+        </div>
+
     </div>
 
-    <div class="top-menu__toggle js-top-menu-toggle">
-        <a href="#">
-            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-            <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
-        </a>
-    </div>
-
-    <div class="top-menu__list-wrapper">
-        <ul class="top-menu__list">
-            <li class="top-menu__item top-menu__item-active">
-                <a href="#!/" class="" >{c:lc | loc 'menu_main'}</a>
-            </li>
-            <li class="top-menu__item">
-                <a href="#" class="js-go-to-skills">{c:lc | loc 'menu_skills'}</a>
-            </li>
-
-            <li class="top-menu__item">
-                <a href="#" class="js-go-to-history">{c:lc | loc 'menu_xp'}</a>
-            </li>
-            <li class="top-menu__item">
-                <a href="#" class="js-go-to-contacts">{c:lc | loc 'menu_contacts'}</a>
-            </li>
-        </ul>
-    </div>
 
 </div>
