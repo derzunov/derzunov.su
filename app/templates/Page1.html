@@ -2,7 +2,7 @@
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <div  class="carousel-image hi">
-                <video loop autoplay="autoplay" muted="muted" style="width: 1920px; height: auto; visibility: visible;">
+                <video loop autoplay="autoplay" muted="muted" poster="http://derzunov.su/app/styles/src/carousel/javascript.jpg" style="width: 1920px; height: auto; visibility: visible;">
                     <source src="app/media/code.mp4" type="video/mp4">
                     <source src="app/media/codew.webm" type="video/webm">
                 </video>
@@ -10,8 +10,10 @@
             </div>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>{c:lc | loc 'p1_slider_slide1_h1'}</h1>
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide1_h1'">Привет!</h1>
                     <p rv-html="c:lc | loc 'p1_slider_slide1_text'">
+                        Меня зовут Дмитрий Ерзунов. Я Javascript разработчик.
+                        Расскажу Вам немного о себе. Следующий слайд, пожалуйста.
                     </p>
                     <p><a class="btn btn-lg btn-primary" target="_blank" href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" role="button">LinkedIn</a></p>
                 </div>
@@ -38,7 +40,7 @@
             </div>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="long-header long-header__very-long">{c:lc | loc 'p1_slider_slide3_h1'}</h1>
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide3_h1'" class="long-header long-header__very-long">Московский Государственный Университет Дизайна и Технологии</h1>
                     <p rv-html="c:lc | loc 'p1_slider_slide3_text'">Ленивая&nbsp;юность, лекции, конспекты, лабораторки. <br/> Беззаботное студенчество и бессонные&nbsp;ночи перед&nbsp;экзаменами подарили&nbsp;мне уйму&nbsp;знаний и&nbsp;верных&nbsp;друзей.</p>
 
                     <p><a class="btn btn-lg btn-primary" target="_blank" href="http://www.mgudt.ru/default.aspx" role="button">{c:lc | loc 'to_website'}</a></p>
@@ -52,7 +54,7 @@
             </div>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1 class="long-header" >{c:lc | loc 'p1_slider_slide4_h1'}</h1>
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide4_h1'" class="long-header" >Лаборатория Касперского</h1>
                     <p rv-html="c:lc | loc 'p1_slider_slide4_text'">Будучи мальчишкой, я и представить не мог, что буду работать в&nbsp;легендарной лаборатории.<br>
                         Теперь в&nbsp;команде&nbsp;профессионалов я спасаю&nbsp;Мир от&nbsp;киберугроз.
                     </p>
