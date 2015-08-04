@@ -19,7 +19,9 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
 
             $( document ).ready(() ->
                 $('.carousel-style').height($(window).height())
-                $('.js_carousel').carousel()
+                $('.js_carousel').carousel({
+                    interval: 12000
+                })
 
                 if( isMSIE )
                     $('#myModal').modal('show')
