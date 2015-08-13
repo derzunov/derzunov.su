@@ -17,6 +17,8 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
             @render()
             @di().get( 'rivets' ).bind( @el, {c: @di().get( 'client' )} )
 
+            $('.carousel-style').height($(window).height())
+
             $( document ).ready(() ->
                 $('.carousel-style').height($(window).height())
                 $('.js_carousel').carousel({
