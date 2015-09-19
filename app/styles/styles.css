@@ -16,20 +16,10 @@
   left: -40px;
 }
 .__before-seen {
-  position: relative;
-  left: -50px;
-  opacity: 0;
+  visibility: hidden;
 }
 .__before-seen__right {
-  position: relative;
-  left: 50px;
-  opacity: 0;
-}
-.__have-seen {
-  transition: all 0.4s ease-in;
-  left: 0;
-  position: relative;
-  opacity: 1;
+  visibility: hidden;
 }
 .carousel-indicators li {
   border-radius: 50%;
@@ -83,16 +73,16 @@
   background-color: rgba(8, 0, 26, 0.5);
 }
 .carousel-style .mgudt {
-  background-image: url('src/carousel/mgudt.jpg');
+  background-image: url('src/carousel/mgudt_minimized_1.jpg');
 }
 .carousel-style .Moscow {
-  background-image: url('src/carousel/stalin1.jpg');
+  background-image: url('src/carousel/stalin1_minimized_1.jpg');
 }
 .carousel-style .Moscow .overlay {
   background-color: rgba(8, 0, 26, 0.4);
 }
 .carousel-style .hi {
-  background-image: url('src/carousel/javascript.jpg');
+  background-image: url('src/carousel/javascript_minimized_1.jpg');
 }
 .carousel-style .hi .overlay {
   background-color: rgba(8, 0, 26, 0.9);
@@ -103,7 +93,7 @@
   }
 }
 .carousel-style .kl {
-  background-image: url('src/carousel/kl3.jpg');
+  background-image: url('src/carousel/kl3_minimized_1.jpg');
 }
 .carousel-style .kl .overlay {
   background-color: rgba(8, 0, 26, 0.5);
