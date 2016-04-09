@@ -3,8 +3,7 @@
 ###
 define(
     ['backbone', 'jquery', './DefaultModel', '../locs/Ru', '../locs/En', '../locs/Es'],
-    (Backbone, $, DefaultModel, ru, en, es)  ->
-
+    ( Backbone, $, DefaultModel, ru, en, es )  ->
         class Localization extends DefaultModel
 
             initialize: () ->
@@ -26,5 +25,5 @@ define(
                 else
                     return "no locs for #{key}"
 
-        return Localization
+        Localization
 )
