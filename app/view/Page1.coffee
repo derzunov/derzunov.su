@@ -36,18 +36,14 @@ define([ 'backbone', './defaultPage', 'jquery.scrollTo', 'in-viewport' ], ( Back
                 callbackIn: ( $element ) ->
 
                     setTimeout( () ->
-                        $element.removeClass('__before-seen')
-                        $element.removeClass('__before-seen__right')
-                        $element.addClass('__have-seen')
+                        $element.addClass 'slideUp'
                     ,
                     100)
             })
 
             this.$el.find('.js_feature_image').inViewport({
                 callbackIn: ( $element ) ->
-                    $element.removeClass('__before-seen__right');
-                    $element.removeClass('__before-seen');
-                    $element.addClass('__have-seen');
+                    $element.addClass 'bigEntrance';
             })
 
 

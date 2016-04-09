@@ -4,7 +4,7 @@ define(
         return {
             lc: "EN"
             p1_slider_slide1_h1: "Hello!"
-            p1_slider_slide1_text: "My&nbsp;name is Dmitry&nbsp;Erzunov. I'm a&nbsp;Javascript&nbsp;developer. <br>
+            p1_slider_slide1_text: "My&nbsp;name is Dmitry&nbsp;Erzunov.<br>I'm a&nbsp;Full-Stack&nbsp;JavaScript&nbsp;developer and a web application architect. <br>
                             Let me tell&nbsp;you about&nbsp;myself.
                             Go to the next slide, please."
 
@@ -22,8 +22,8 @@ define(
             to_website: "Website"
 
             p1_skills_header1: "Technologies and techniques are different."
-            p1_skills_header2: "What I had to deal with?"
-            p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
+            p1_skills_header2: "With what did I work?"
+            p1_skills_text: 'VanillaJS, CoffeeScript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, MarionetteJS, RiotJS, knockoutJS, nodeJS, grunt, gulp, webpack, bower, express, SailsJS, HTML5, CSS3'
 
             p1_xp_header1: 'Various companies.'
             p1_xp_header2: 'Interesting and vast experience.'

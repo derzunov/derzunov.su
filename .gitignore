@@ -18,3 +18,4 @@ production/index.html
 production/app
 !production/app/fonts
 index.html
+app/locs/*.js

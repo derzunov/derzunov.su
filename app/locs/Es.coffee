@@ -4,9 +4,9 @@ define(
         return {
         lc: "ES"
         p1_slider_slide1_h1: "Hola!"
-        p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov. Soy&nbsp;un&nbsp;Javascript&nbsp;desarrollador. <br>
+        p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov.<br>Soy&nbsp;un&nbsp;Full-Stack&nbsp;JavaScript&nbsp;desarrollador y un arquitecto de las aplicaciones web. <br>
                             Déjame&nbsp;hablarte un poco&nbsp;sobre mi persona.
-                            Vaya&nbsp;a&nbsp;la&nbsp;diapositiva siguiente, por favor."
+                            Vaya&nbsp;a&nbsp;la&nbsp;diapositiva&nbsp;siguiente,&nbsp;por&nbsp;favor."
 
         p1_slider_slide2_h1: "Moscú"
         p1_slider_slide2_text: "Soy&nbsp;afortunado de vivir en la ciudad más bella del mundo.<br> No se construyó en un día y no cree en las lágrimas."
@@ -23,7 +23,7 @@ define(
 
         p1_skills_header1: "Tecnologías y técnicas son diferentes."
         p1_skills_header2: "Aquí es lo que tenía que hacer."
-        p1_skills_text: 'VanillaJS, Coffeescript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, knockoutJS, nodeJS, grunt, gulp, bower, express, SailsJS, HTML5, CSS3'
+        p1_skills_text: "VanillaJS, CoffeeScript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, MarionetteJS, RiotJS, knockoutJS, nodeJS, grunt, gulp, webpack, bower, express, SailsJS, HTML5, CSS3"
 
         p1_xp_header1: "Empresas fueron varias."
         p1_xp_header2: "Por eso tengo una experiencia interesante y vasto."
