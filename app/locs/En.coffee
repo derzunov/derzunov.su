@@ -23,7 +23,7 @@ define(
 
             p1_skills_header1: "Technologies and techniques are different."
             p1_skills_header2: "With what did I work?"
-            p1_skills_text: 'VanillaJS, CoffeeScript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, MarionetteJS, RiotJS, knockoutJS, nodeJS, grunt, gulp, webpack, bower, express, SailsJS, HTML5, CSS3'
+            p1_skills_text: 'VanillaJS, CoffeeScript, Backbone.js, Rivets.js, Angular.js, Marionette.js, Riot.js, knockout.js, node.js, grunt, gulp, webpack, express.js, Sails.js, stylus, less, Pug, HTML5, CSS3, es6, jQuery, Underscore, etc.'
 
             p1_xp_header1: 'Various companies.'
             p1_xp_header2: 'Interesting and vast experience.'
