@@ -7,7 +7,7 @@ define(
 
             # Слайдер
             p1_slider_slide1_h1: "Привет!"
-            p1_slider_slide1_text: "Меня&nbsp;зовут Дмитрий&nbsp;Ерзунов. <br> Я&nbsp;Full-Stack&nbsp;JavaScript&nbsp;разработчик <br> и архитектор web-приложений. <br>
+            p1_slider_slide1_text: "Меня&nbsp;зовут Дмитрий&nbsp;Ерзунов. <br> Я&nbsp;Full-Stack&nbsp;JavaScript&nbsp;разработчик и архитектор web-приложений. <br>
                         Расскажу&nbsp;Вам немного&nbsp;о&nbsp;себе.
                         Следующий&nbsp;слайд, пожалуйста."
 
