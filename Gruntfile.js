@@ -152,7 +152,12 @@ module.exports = function (grunt) {
 				dest: 'production/'
 			},
 			stylesJpg: {
-				src: 'app/styles/src/**/*.jpg',
+				src: ['app/styles/src/**/*.jpg', 'app/styles/src/**/*.JPG'],
+				dest: 'production/'
+			},
+
+            stylesJPG: {
+				src: 'app/styles/src/**/*.JPG',
 				dest: 'production/'
 			},
 			imgPng: {

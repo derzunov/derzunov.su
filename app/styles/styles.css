@@ -73,7 +73,7 @@
   background-color: rgba(8, 0, 26, 0.5);
 }
 .carousel-style .mgudt {
-  background-image: url('src/carousel/mgudt_new.jpg');
+  background-image: url('src/carousel/MGUDT_20160905.JPG');
 }
 .carousel-style .Moscow {
   background-image: url('src/carousel/stalin1_minimized_1.jpg');
@@ -266,6 +266,9 @@
 .section {
   padding: 50px 0;
   min-height: 400px;
+}
+.feature {
+  text-align: center;
 }
 .feature__img {
   width: 180px;
