@@ -85,11 +85,11 @@
   background-image: url('src/carousel/javascript_minimized_1.jpg');
 }
 .carousel-style .hi .overlay {
-  background-color: rgba(8, 0, 26, 0.9);
+  background-color: rgba(8, 0, 26, 0.8);
 }
 @media screen and (max-width: 640px) {
   .carousel-style .hi .overlay {
-    background-color: rgba(8, 0, 26, 0.5);
+    background-color: rgba(8, 0, 26, 0.8);
   }
 }
 .carousel-style .kl {
