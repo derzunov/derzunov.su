@@ -34,7 +34,7 @@ define(
 
         p1_contacts_header1: 'Contactos'
         p1_contacts_header2: 'Es muy fácil de ponerse en contacto conmigo.'
-        p1_contacts_text: "Se puede funcionar: la red social <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> o&nbsp;mi&nbsp;correo&nbsp;electrónico&nbsp;de&nbsp;gmail&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. Si usted está interesado en mi vida personal sígueme&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
+        p1_contacts_text: "Se puede funcionar: la red social <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> o&nbsp;mi&nbsp;correo&nbsp;electrónico&nbsp;de&nbsp;gmail&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. Si usted está interesado en mi vida personal sígueme&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>Facebook</a>"
 
 #Main  | Skills            | Experience  | Contact me
         menu_main: "Inicio"
