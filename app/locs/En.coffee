@@ -34,7 +34,7 @@ define(
 
             p1_contacts_header1: 'How to contact me? '
             p1_contacts_header2: 'It’s very simple!'
-            p1_contacts_text: "It may work: social network <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> or&nbsp;my&nbsp;email on&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. In case you're interested in my private life, follow me on&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>vk.com</a>"
+            p1_contacts_text: "It may work: social network <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> or&nbsp;my&nbsp;email on&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. In case you're interested in my private life, follow me on&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>Facebook</a>"
 
             #Main  | Skills            | Experience  | Contact me
             menu_main: "Main"

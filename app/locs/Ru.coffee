@@ -35,7 +35,7 @@ define(
 
             p1_contacts_header1: 'Как меня найти? '
             p1_contacts_header2: 'Очень просто!'
-            p1_contacts_text: "Вам могут подойти: социальная сеть <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a>, моя&nbsp;электронная&nbsp;почта на&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>, или, если&nbsp;интересны&nbsp;фоточки&nbsp;и&nbsp;всё&nbsp;такое, моя&nbsp;страничка&nbsp;на&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>vk.com</a>"
+            p1_contacts_text: "Вам могут подойти: социальная сеть <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a>, моя&nbsp;электронная&nbsp;почта на&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>, или, если&nbsp;интересны&nbsp;фоточки&nbsp;и&nbsp;всё&nbsp;такое, моя&nbsp;страничка&nbsp;на&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>Facebook</a>"
 
             menu_main: "Главная"
             menu_skills: "Навыки"
