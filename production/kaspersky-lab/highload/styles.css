@@ -326,6 +326,93 @@ small {
     padding-bottom: 20px;
   }
 }
+.share {
+  display: flex;
+}
+.share__button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  z-index: 0;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: none;
+  text-decoration: none;
+}
+.share__button_fb {
+  color: #3b5998;
+}
+.share__button_twitter {
+  color: #1da1f2;
+}
+.share__button_vk {
+  color: #6383a8;
+}
+.share__button_google {
+  color: #dd4b39;
+}
+.share__button_linkedin {
+  color: #069;
+}
+.share__button_youtube {
+  color: #cc1f1f;
+}
+.share__button + .share__button {
+  margin: 0 0 0 10px;
+}
+.share__button svg {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  transition: inherit;
+  fill: #fff;
+}
+.share__button_fb:hover {
+  color: #4366ae;
+}
+.share__button_fb:active,
+.share__button_fb:focus {
+  color: #355089;
+}
+.share__button_twitter:hover {
+  color: #34aaf3;
+}
+.share__button_twitter:active,
+.share__button_twitter:focus {
+  color: #0d94e7;
+}
+.share__button_vk:hover {
+  color: #738fb1;
+}
+.share__button_vk:active,
+.share__button_vk:focus {
+  color: #56769a;
+}
+.share__button_google:hover {
+  color: #e05d4d;
+}
+.share__button_google:active,
+.share__button_google:focus {
+  color: #d63825;
+}
+.share__button_linkedin:hover {
+  color: #007ebd;
+}
+.share__button_linkedin:active,
+.share__button_linkedin:focus {
+  color: #005c8a;
+}
+.share__button_youtube:hover {
+  color: #de2828;
+}
+.share__button_youtube:active,
+.share__button_youtube:focus {
+  color: #b81c1c;
+}
 .system-controls {
   position: absolute;
   top: 0;
