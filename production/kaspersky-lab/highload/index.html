@@ -7,7 +7,9 @@
     <meta property="og:image" content="http://derzunov.su/kaspersky-lab/highload/images/kaspersky.jpg" >
     <meta property="og:title" content="HighLoad++" />
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./blueimp-gallery/css/blueimp-gallery.min.css">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="../../lib/jquery-1.11.3.min.js" ></script>
 </head>
 <body>
     <div id="wrap">
@@ -26,7 +28,7 @@
                     </div>
                     <div class="navbar-collapse collapse navbar-responsive-collapse">
                         <ul id="header-list" class="nav navbar-nav">
-                            <li class="active"><a href="./index.html">Задания</a></li>
+                            <li class="active"><a href="./index.html">Галерея</a></li>
                             <li><a href="./results.html">Результаты</a></li>
                             <li><a href="./share.html">Поделиться</a></li>
                         </ul>
@@ -42,40 +44,279 @@
             </div>
         </div>
         <div id="main-region>" class="container content">
-            <h1>Задания</h1>
-            <div class="task">
-                <h2>Конкурс «Слепой верстальщик»</h2>
-                <p>Условия конкурса крайне просты – вам дается задание на верстку в виде уже готового изображения сайта, который должен получиться в итоге. Но есть один нюанс, визуальная часть вам недоступна при выполнении задания, вы можете работать только с исходником странички. В тоже время зрители вам могут подсказывать, поскольку видят итоговый результат на развернутых к публике мониторах.
-                </p>
+            <h1> Галерея </h1>
 
-                <h4>Ограничения:
-                </h4>
-                <ul>
-                    <li>Запрещено переключаться на браузер на страничку с результатом и использование любых других средств для визуализации.
-                    </li>
+            <div class="row js_gallery">
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4300-min.JPG')" class="gallery_image" target="_blank" href="./gallery/min/IMG_4300-min.JPG">
+                    </a>
+                </div>
 
-                    <li>
-                        На задание отводится не более 15 минут
-                    </li>
-                </ul>
-                <p>
-                    Побеждает тот, у кого результат будет ближе всего к исходному изображению.
-                </p>
-                <p>
-                    Каждый участник получит гарантированный подарок, а победитель – особенный приз от Лаборатории Касперского!
-                </p>
-                <h4>Расписание:</h4>
-                <ul>
-                    <li>
-                        10:50 – регистрация, 11:10 – 11:25 – конкурс, 11:30 – выдача призов.
-                    </li>
-                    <li>
-                        12:50 – регистрация, 13:10 – 13:25 – конкурс, 13:30 – выдача призов.
-                    </li>
-                </ul>
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4316-min.JPG')"
+                       href="./gallery/min/IMG_4316-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4303-min.JPG')"
+                       href="./gallery/min/IMG_4303-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4323-min.JPG')"
+                       href="./gallery/min/IMG_4323-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4326-min.JPG')"
+                       href="./gallery/min/IMG_4326-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4328-min.JPG')"
+                       href="./gallery/min/IMG_4328-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4332-min.JPG')"
+                       href="./gallery/min/IMG_4332-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4333-min.JPG')"
+                       href="./gallery/min/IMG_4333-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4337-min.JPG')"
+                       href="./gallery/min/IMG_4337-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4340-min.JPG')"
+                       href="./gallery/min/IMG_4340-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4341-min.JPG')"
+                       href="./gallery/min/IMG_4341-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4352-min.JPG')"
+                       href="./gallery/min/IMG_4352-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4359-min.JPG')"
+                       href="./gallery/min/IMG_4359-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4381-min.JPG')"
+                       href="./gallery/min/IMG_4381-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4382-min.JPG')"
+                       href="./gallery/min/IMG_4382-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4388-min.JPG')"
+                       href="./gallery/min/IMG_4388-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4389-min.JPG')"
+                       href="./gallery/min/IMG_4389-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4391-min.JPG')"
+                       href="./gallery/min/IMG_4391-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4392-min.JPG')"
+                       href="./gallery/min/IMG_4392-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4395-min.JPG')"
+                       href="./gallery/min/IMG_4395-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4400-min.JPG')"
+                       href="./gallery/min/IMG_4400-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4406-min.JPG')"
+                       href="./gallery/min/IMG_4406-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4413-min.JPG')"
+                       href="./gallery/min/IMG_4413-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4416-min.JPG')"
+                       href="./gallery/min/IMG_4416-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4425-min.JPG')"
+                       href="./gallery/min/IMG_4425-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4427-min.JPG')"
+                       href="./gallery/min/IMG_4427-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4432-min.JPG')"
+                       href="./gallery/min/IMG_4432-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4436-min.JPG')"
+                       href="./gallery/min/IMG_4436-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4438-min.JPG')"
+                       href="./gallery/min/IMG_4438-min.JPG"
+                       class="gallery_image" target="_blank"
+                       >
+                    </a>
+                </div>
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4439-min.JPG')"
+                       href="./gallery/min/IMG_4439-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
+
+
+                <div class="col-md-3 col-sm-4">
+                    <a style="background-image: url('./gallery/min/IMG_4441-min.JPG')"
+                       href="./gallery/min/IMG_4441-min.JPG"
+                       class="gallery_image" target="_blank"
+                    >
+                    </a>
+                </div>
+
             </div>
+
+            <h2>Что происходило?</h2>
             <div class="task">
-                <h2>Соревнования по шуточному взлому – «КулХацкер»</h2>
+                <h3>Соревнования по шуточному взлому – «КулХацкер»</h3>
                 <p>Ваша задача взломать секретное хранилище данных, шаг за шагом, выявляя типичные ошибки, допускаемые при проектировании систем. Задание содержит несколько этапов, за каждый из них вы получаете баллы (каждый этап – один балл). Дошедшие до финала получают специальный приз от Лаборатории Касперского!</p>
                 <p>Для участия совершенно не обязательно быть гуру в информационной безопасности, вам не придется искать реальные уязвимости системы, все ошибки типичны и не требуют спец. подготовки.</p>
                 <h4>Ограничения</h4>
@@ -109,5 +350,46 @@
         </div>
     </div>
     <script src="./bundle.js"></script>
+    <script src="./blueimp-gallery/js/blueimp-gallery.min.js"></script>
+    <style>
+        .gallery_image {
+            display: block;
+            background-size: cover;
+            width: 100%;
+            height: 150px;
+            margin-top: 10px;
+            background-position: center;
+        }
+
+        @media (max-width: 767px) {
+            .gallery_image {
+                height: 300px;
+            }
+        }
+    </style>
+
+    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
+    </div>
+
+    <script>
+        var $body = $( document.body );
+        $body.on("click", ".js_gallery", function( event ) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+                    link = target.src ? target.parentNode : target,
+                    options = {index: link, event: event},
+                    links = this.getElementsByTagName('a');
+            // Переменную галереи (gallery) настраиваю в webpack таске в ее конфиге (webpack.js)
+            blueimp.Gallery(links, options);
+        });
+    </script>
 </body>
 </html>
