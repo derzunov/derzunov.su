@@ -299,11 +299,15 @@ small {
     background-position: center;
 }
 .header__logo-text {
+    transition: opacity 0.2s linear;
     position: relative;
     left: 50px;
     top: 3px;
 }
-.header-logo:hover {
+.navbar-brand:hover .header__logo-text {
+    opacity: 0.8;
+}
+.navbar-brand:hover .header-logo {
   opacity: 0.8;
 }
 #header-list li {
