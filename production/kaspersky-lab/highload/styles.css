@@ -283,16 +283,25 @@ small {
   color: inherit;
   background: none;
 }
+
 .header-logo {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 155px;
-  height: 41px;
-  background-image: url(./images/hl-logo-transparent.png);
-  transition: opacity 0.2s linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 41px;
+    background-image: url(./images/hl-logo-six.png);
+    transition: opacity 0.2s linear;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__logo-text {
+    position: relative;
+    left: 50px;
+    top: 3px;
 }
 .header-logo:hover {
   opacity: 0.8;

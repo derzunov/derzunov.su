@@ -8,7 +8,7 @@
     <meta property="og:title" content="HighLoad++" />
     <meta property="og:description" content="Kaspersky Lab на HighLoad++ 2016 | Фотогалерея, турнирная таблица, горячие вакансии" />
     <meta property="description" content="Kaspersky Lab на HighLoad++ 2016 | Фотогалерея, турнирная таблица, горячие вакансии" />
-    <link rel="stylesheet" href="./styles.css?v=2">
+    <link rel="stylesheet" href="./styles.css?v=3">
     <link rel="stylesheet" href="./blueimp-gallery/css/blueimp-gallery.min.css">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <script src="../../lib/jquery-1.11.3.min.js" ></script>
@@ -26,6 +26,9 @@
                         </button>
                         <a href="./index.html" class="navbar-brand">
                             <div class="header-logo"></div>
+                            <div class="header__logo-text">
+                                HighLoad++
+                            </div>
                         </a>
                     </div>
                     <div class="navbar-collapse collapse navbar-responsive-collapse">
@@ -440,5 +443,34 @@
             blueimp.Gallery(links, options);
         });
     </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+
+
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter27765606 = new Ya.Metrika({
+                        id:27765606
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+
+    </script>
+    <!-- /Yandex.Metrika counter -->
+
 </body>
 </html>
