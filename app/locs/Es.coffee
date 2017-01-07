@@ -23,7 +23,7 @@ define(
 
         p1_skills_header1: "Tecnologías y técnicas son diferentes."
         p1_skills_header2: "Aquí es lo que tenía que hacer."
-        p1_skills_text: "VanillaJS, CoffeeScript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, MarionetteJS, RiotJS, knockoutJS, nodeJS, grunt, gulp, webpack, bower, express, SailsJS, HTML5, CSS3"
+        p1_skills_text: 'JavaScript, ES2015, CoffeeScript, React, Redux, React Native, Backbone.js, Rivets.js, Angular.js, Marionette.js, node.js, grunt, gulp, webpack, express.js, Sails.js, stylus, less, Pug, HTML5, CSS3, jQuery, Underscore, etc.'
 
         p1_xp_header1: "Empresas fueron varias."
         p1_xp_header2: "Por eso tengo una experiencia interesante y vasto."
@@ -34,7 +34,7 @@ define(
 
         p1_contacts_header1: 'Contactos'
         p1_contacts_header2: 'Es muy fácil de ponerse en contacto conmigo.'
-        p1_contacts_text: "Se puede funcionar: la red social <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> o&nbsp;mi&nbsp;correo&nbsp;electrónico&nbsp;de&nbsp;gmail&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. Si usted está interesado en mi vida personal sígueme&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
+        p1_contacts_text: "Se puede funcionar: la red social <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> o&nbsp;mi&nbsp;correo&nbsp;electrónico&nbsp;de&nbsp;gmail&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. Si usted está interesado en mi vida personal sígueme&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>Facebook</a>"
 
 #Main  | Skills            | Experience  | Contact me
         menu_main: "Inicio"

@@ -23,7 +23,7 @@ define(
 
             p1_skills_header1: "Technologies and techniques are different."
             p1_skills_header2: "With what did I work?"
-            p1_skills_text: 'VanillaJS, CoffeeScript, jQuery, Underscore, BackboneJS, RivetsJS, AngularJS, MarionetteJS, RiotJS, knockoutJS, nodeJS, grunt, gulp, webpack, bower, express, SailsJS, HTML5, CSS3'
+            p1_skills_text: 'JavaScript, ES2015, CoffeeScript, React, Redux, React Native, Backbone.js, Rivets.js, Angular.js, Marionette.js, node.js, grunt, gulp, webpack, express.js, Sails.js, stylus, less, Pug, HTML5, CSS3, jQuery, Underscore, etc.'
 
             p1_xp_header1: 'Various companies.'
             p1_xp_header2: 'Interesting and vast experience.'
@@ -34,7 +34,7 @@ define(
 
             p1_contacts_header1: 'How to contact me? '
             p1_contacts_header2: 'It’s very simple!'
-            p1_contacts_text: "It may work: social network <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> or&nbsp;my&nbsp;email on&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. In case you're interested in my private life, follow me on&nbsp;<a target='_blank' href='http://vk.com/tonky'>vk.com</a>"
+            p1_contacts_text: "It may work: social network <a target='_blank' href='https://ru.linkedin.com/in/derzunov'>LinkedIn</a> or&nbsp;my&nbsp;email on&nbsp;<a href='mailto:derzunov.work@gmail.com'>gmail</a>. In case you're interested in my private life, follow me on&nbsp;<a target='_blank' href='https://www.facebook.com/derzunov'>Facebook</a>"
 
             #Main  | Skills            | Experience  | Contact me
             menu_main: "Main"
