@@ -4,7 +4,7 @@ define(
         return {
         lc: "ES"
         p1_slider_slide1_h1: "Hola!"
-        p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov.<br>Soy&nbsp;un&nbsp;Full-Stack&nbsp;JavaScript&nbsp;desarrollador y un arquitecto de las aplicaciones web. <br>
+        p1_slider_slide1_text: "Me&nbsp;llamo Dmitry&nbsp;Erzunov.<br>Soy&nbsp;un&nbsp;JavaScript&nbsp;desarrollador. <br>
                             Déjame&nbsp;hablarte un poco&nbsp;sobre mi persona.
                             Vaya&nbsp;a&nbsp;la&nbsp;diapositiva&nbsp;siguiente,&nbsp;por&nbsp;favor."
 
