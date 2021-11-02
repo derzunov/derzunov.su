@@ -20,3 +20,4 @@ production/app
 index.html
 !production/kaspersky-lab/highload/index.html
 app/locs/*.js
+.DS_Store
