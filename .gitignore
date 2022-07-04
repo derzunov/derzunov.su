@@ -12,7 +12,6 @@ index.html
 /app/view/*.js
 /app/helper/*.js
 /app/*.js
-style.css
 production/app.js
 production/index.html
 production/app
