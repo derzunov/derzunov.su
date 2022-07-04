@@ -1,0 +1,262 @@
+<!-- Template: Footer-->
+<script type="text/template" id="Footer">
+<div class="footer">
+    <div class="container">
+        <footer>
+            <p class="pull-right"><a class="js-go-to-top" href="#">{c:lc | loc 'to_top'}</a></p>
+            <p>© 2017 Dmitry Erzunov ·
+                <a href="https://ru.linkedin.com/in/derzunov" target="_blank">LinkedIn</a> ·
+                <a href="https://www.facebook.com/derzunov" target="_blank">Facebook</a>
+            </p>
+            <a href="#" class="js-go-to-top">{c:lc | loc 'menu_main'}</a> ·
+            <a href="#" class="js-go-to-skills">{c:lc | loc 'menu_skills'}</a> ·
+            <a href="#" class="js-go-to-history">{c:lc | loc 'menu_xp'}</a> ·
+            <a href="#" class="js-go-to-contacts">{c:lc | loc 'menu_contacts'}</a>
+        </footer>
+    </div>
+</div>
+</script>
+<!---->
+<!-- Template: Header-->
+<script type="text/template" id="Header">
+<div class="top-menu top-menu_list-hidden js-top-menu">
+    <div class="hideLt800">
+
+        <div class="top-menu__logo">
+            <a href="/">derzunov.su</a>
+        </div>
+
+        <div class="top-menu__toggle top-menu__toggle_language">
+            <a rv-html="c:lc | loc 'lc'" class="js_language_toggle" href="#">
+                RU
+            </a>
+        </div>
+
+        <div class="top-menu__toggle">
+            <a class="js-top-menu-toggle" href="#">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="top-menu__list-wrapper">
+            <ul class="top-menu__list">
+                <li class="top-menu__item top-menu__item-active">
+                    <a rv-html="c:lc | loc 'menu_main'" href="#!/" class="" >Главная</a>
+                </li>
+                <li class="top-menu__item">
+                    <a rv-html="c:lc | loc 'menu_skills'" href="#" class="js-go-to-skills">Навыки</a>
+                </li>
+
+                <li class="top-menu__item">
+                    <a rv-html="c:lc | loc 'menu_xp'" href="#" class="js-go-to-history">Опыт</a>
+                </li>
+                <li class="top-menu__item">
+                    <a rv-html="c:lc | loc 'menu_contacts'" href="#" class="js-go-to-contacts">Контакты</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="hideGt800">
+
+        <div class="top-menu__logo">
+            <a href="/">derzunov.su</a>
+        </div>
+
+        <div class="top-menu__toggle top-menu__toggle_language">
+            <a rv-html="c:lc | loc 'lc'" class="js_language_toggle" href="#">
+                RU
+            </a>
+        </div>
+
+    </div>
+
+
+</div>
+
+</script>
+<!---->
+<!-- Template: Page1-->
+<script type="text/template" id="Page1">
+<div id="myCarousel-1" class="js_carousel carousel-style slide">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div  class="carousel-image hi">
+                <!--<video loop autoplay="autoplay" muted="muted" poster="http://derzunov.su/app/styles/src/carousel/javascript_minimized_1.jpg" style="width: 1920px; height: auto; visibility: visible;">-->
+                    <!--<source src="app/media/code1.mp4" type="video/mp4">-->
+                    <!--<source src="app/media/codew1.webm" type="video/webm">-->
+                <!--</video>-->
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide1_h1'">Привет!</h1>
+                    <p rv-html="c:lc | loc 'p1_slider_slide1_text'">
+                        Меня зовут Дмитрий Ерзунов. Я Javascript разработчик.
+                        Расскажу Вам немного о себе. Следующий слайд, пожалуйста.
+                    </p>
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="http://ru.linkedin.com/pub/дмитрий-ерзунов/59/6b4/a26/ru" role="button">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image Moscow">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide2_h1'">Москва</h1>
+                    <p rv-html="c:lc | loc 'p1_slider_slide2_text'">Мне повезло жить в лучшем и красивейшем городе на&nbsp;свете.<br/>Он строился не сразу и не верит слезам.</p>
+
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0" role="button">{c:lc | loc 'read_more'}</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image mgudt">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide3_h1'" class="long-header long-header__very-long">Московский Государственный Университет Дизайна и Технологии</h1>
+                    <p rv-html="c:lc | loc 'p1_slider_slide3_text'">Ленивая&nbsp;юность, лекции, конспекты, лабораторки. <br/> Беззаботное студенчество и бессонные&nbsp;ночи перед&nbsp;экзаменами подарили&nbsp;мне уйму&nbsp;знаний и&nbsp;верных&nbsp;друзей.</p>
+
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="http://www.mgudt.ru/default.aspx" role="button">{c:lc | loc 'to_website'}</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <div  class="carousel-image kl">
+                <div class="overlay"></div>
+            </div>
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1 rv-html="c:lc | loc 'p1_slider_slide4_h1'" class="long-header" >Лаборатория Касперского</h1>
+                    <p rv-html="c:lc | loc 'p1_slider_slide4_text'">Будучи мальчишкой, я и представить не мог, что буду работать в&nbsp;легендарной лаборатории.<br>
+                        Теперь в&nbsp;команде&nbsp;профессионалов я спасаю&nbsp;Мир от&nbsp;киберугроз.
+                    </p>
+
+                    <p><a class="btn btn-lg btn-primary" target="_blank" href="http://kaspersky.com" role="button">{c:lc | loc 'to_website'}</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a class="left carousel-control" href="#myCarousel-1" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel-1" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <a href="#" class="down-next js-main-first-down-next">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+    </a>
+</div>
+<section id="section-skills" class="section">
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-sm-3 feature">
+                <img class="img-circle feature__img __before-seen" src="app/img/JavaScript-logo.png" alt="JavaScript">
+                <h2 class="feature__header">Client</h2>
+                <p>JavaScript, React, Redux, etc.</p>
+                <p><a target="_blank"  class="button" href="http://javascript.ru/" role="button">{c:lc | loc 'read_more'}</a></p>
+            </div>
+            <div class="col-sm-3 feature">
+                <img class="img-circle feature__img __before-seen" src="app/img/nodejs-logo2.png" alt="Node.js">
+                <h2 class="feature__header">Server</h2>
+                <p>Node.js, Express.js, Sails.js, etc.</p>
+                <p><a target="_blank"  class="button" href="https://nodejs.org/" role="button">{c:lc | loc 'read_more'}</a></p>
+            </div>
+            <div class="col-sm-3 feature">
+                <img class="img-circle feature__img __before-seen" src="app/img/electron.png" alt="Electron">
+                <h2 class="feature__header">Desktop</h2>
+                <p>Electron.js / CEF</p>
+                <p><a target="_blank"  class="button" href="http://electron.atom.io/" role="button">{c:lc | loc 'read_more'}</a></p>
+            </div>
+            <div class="col-sm-3 feature">
+                <img class="img-circle feature__img __before-seen" src="app/img/react-logo-1000-transparent.png" alt="React Native">
+                <h2 class="feature__header">Mobile</h2>
+                <p>React Native or PhoneGap / Cordova</p>
+                <p><a target="_blank"  class="button" href="https://facebook.github.io/react-native/" role="button">{c:lc | loc 'read_more'}</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section bg-light-gray">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header">
+                    {c:lc | loc 'p1_skills_header1'} <br/>
+                    <span class="text-muted">{c:lc | loc 'p1_skills_header2'}</span>
+                </h2>
+                <p class="lead">{c:lc | loc 'p1_skills_text'}</p>
+            </div>
+            <div class="col-md-5">
+                <img width="500" class="js_feature_image img-responsive __before-seen__right" alt="javascript rocket" src="app/img/rocket.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-history" class="section">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-5">
+                <img width="500" class="js_feature_image img-responsive g-20left __before-seen" alt="javascript pencil" src="app/img/Pencil.png">
+            </div>
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header">
+                    {c:lc | loc 'p1_xp_header1'}<br/>
+                    <span class="text-muted">{c:lc | loc 'p1_xp_header2'}</span></h2>
+                <p rv-html="c:lc | loc 'p1_xp_text'" class="lead"></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="section-contacts" class="section bg-light-gray">
+    <div class="container pic-card">
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading pic-card__header">
+                    {c:lc | loc 'p1_contacts_header1'}<br/>
+                    <span class="text-muted">{c:lc | loc 'p1_contacts_header2'}</span></h2>
+                <p rv-html="c:lc | loc 'p1_contacts_text'" class="lead"></p>
+            </div>
+            <div class="col-md-5">
+                <img width="500" class="js_feature_image img-responsive __before-seen__right" alt="javascript rocket" src="app/img/GPS.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div style="z-index: 999999;" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Ваш браузер дно</h4>
+            </div>
+            <div class="modal-body">
+                <p>Авторитетно заявляю, Ваш браузер неприемлем для использования.</p>
+                <p>Давайте дружно вобьём последний гвоздь в крышку гроба старых IE.</p>
+                <p>Установите себе <a href="https://chrome.google.com">Chrome</a>.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+<!---->
