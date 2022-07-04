@@ -5,9 +5,6 @@
 /node_modules
 /bower_components/*
 /node_modules/*
-production/app.js
-production/index.html
-production/app
 !production/app/fonts
 !production/kaspersky-lab/highload/index.html
 .DS_Store
